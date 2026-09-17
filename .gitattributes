@@ -1,0 +1,3 @@
+# Preserve exact release bytes: SHA-256 manifests include original line endings.
+# Some verified files intentionally retain a mixture of LF and CRLF.
+* -text

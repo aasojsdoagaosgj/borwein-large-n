@@ -1,0 +1,111 @@
+{
+  "kind": "uniform resonant-gap interval certificate",
+  "implementation": "reconstructed_20260908",
+  "python": "3.12.14",
+  "mpmath": "1.3.0",
+  "status": "passed",
+  "decimal_precision": 60,
+  "subintervals": 400,
+  "eta": "113/40000",
+  "T": "6/5",
+  "tau_range": "[0,11/2]",
+  "angle_range": "all real |t| >= 6/5",
+  "analytic_basis": "Grouped difference weights W_d, endpoint envelopes and global sinc bound; manuscript 8.3a",
+  "branches_certified": {
+    "uniform": 90,
+    "endpoint": 1510
+  },
+  "pair_contributions": [
+    {
+      "difference": 1,
+      "lower_bound_expression_interval": "[0.0058925576966002784191947339648432391046189984157483488499576515942, 0.0058925576966002784191947339648432391046189984157483488499599742861]"
+    },
+    {
+      "difference": 2,
+      "lower_bound_expression_interval": "[0.0023201760980378019445369556898330871298406764636218702082897657706, 0.0023201760980378019445369556898330871298406764636218702082904451975]"
+    },
+    {
+      "difference": 3,
+      "lower_bound_expression_interval": "[0.0011433772514180327000276789667499691127203456262613905324727897435, 0.001143377251418032700027678966749969112720345626261390532473043617]"
+    },
+    {
+      "difference": 4,
+      "lower_bound_expression_interval": "[0.00056602260909497463111905433399211171195462020707601705775134473509, 0.00056602260909497463111905433399211171195462020707601705775145085756]"
+    }
+  ],
+  "exact_weight_polynomials": [
+    {
+      "difference": 1,
+      "Q_coefficients_ascending": [
+        1,
+        0,
+        0,
+        -4,
+        -7,
+        -7,
+        -4,
+        0,
+        0,
+        1
+      ],
+      "mobius_coefficients": [
+        1,
+        9,
+        36,
+        80,
+        95,
+        24,
+        -98,
+        -148,
+        -90,
+        -20
+      ]
+    },
+    {
+      "difference": 2,
+      "Q_coefficients_ascending": [
+        0,
+        2,
+        2,
+        4,
+        2,
+        2,
+        4,
+        2,
+        2
+      ],
+      "mobius_coefficients": null
+    },
+    {
+      "difference": 3,
+      "Q_coefficients_ascending": [
+        0,
+        0,
+        3,
+        4,
+        8,
+        8,
+        4,
+        3
+      ],
+      "mobius_coefficients": null
+    },
+    {
+      "difference": 4,
+      "Q_coefficients_ascending": [
+        0,
+        0,
+        0,
+        4,
+        6,
+        6,
+        4
+      ],
+      "mobius_coefficients": null
+    }
+  ],
+  "gap_interval": "[0.0099221336551510876948784229554184070591346407127076266484715500962, 0.0099221336551510876948784229554184070591346407127076266484749168447]",
+  "certified_gap": "0.00992",
+  "strict_margin_interval": "[0.000002133655151087694878422955418407059134640712707626648471549803336, 0.0000021336551510876948784229554184070591346407127076266484749177672686]",
+  "scope": "Finite interval evaluation of an analytically uniform bound; no angle sampling."
+}

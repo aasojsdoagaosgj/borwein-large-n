@@ -1,0 +1,4135 @@
+{
+  "audit_seconds": 18.79559850000078,
+  "audited_targets": [
+    "Borwein.CertifiedLargeN.coefficient_sign",
+    "Borwein.CertifiedLargeNZeroSet.coefficient_zero_iff",
+    "Borwein.CertifiedLargeNZeroSet.zero_count"
+  ],
+  "blocked": [],
+  "elapsed_seconds": 6677.718,
+  "heavy_modules_run_exclusively": [
+    "Borwein.BulkMomentChunk00",
+    "Borwein.BulkMomentChunk01",
+    "Borwein.BulkMomentChunk02",
+    "Borwein.BulkMomentChunk03",
+    "Borwein.BulkMomentChunk04",
+    "Borwein.BulkMomentChunk05",
+    "Borwein.BulkMomentChunk06",
+    "Borwein.BulkMomentChunk07",
+    "Borwein.BulkMomentChunk08",
+    "Borwein.BulkMomentChunk09",
+    "Borwein.BulkMomentChunk10",
+    "Borwein.BulkMomentChunk11",
+    "Borwein.BulkMomentChunk12",
+    "Borwein.BulkMomentChunk13",
+    "Borwein.BulkMomentChunk14",
+    "Borwein.BulkMomentChunk15",
+    "Borwein.BulkMomentChunk16",
+    "Borwein.BulkMomentChunk17",
+    "Borwein.BulkMomentChunk18",
+    "Borwein.BulkMomentChunk19",
+    "Borwein.BulkMomentChunk20",
+    "Borwein.BulkMomentChunk21",
+    "Borwein.BulkMomentChunk22",
+    "Borwein.BulkMomentChunk23",
+    "Borwein.BulkMomentChunk24",
+    "Borwein.BulkMomentChunk25",
+    "Borwein.BulkMomentChunk26",
+    "Borwein.BulkMomentChunk27",
+    "Borwein.BulkMomentChunk28",
+    "Borwein.BulkMomentChunk29",
+    "Borwein.BulkMomentChunk30",
+    "Borwein.BulkMomentChunk31",
+    "Borwein.BulkRationalCertificate",
+    "Borwein.CertifiedBulkMoments",
+    "Borwein.CertifiedPhaseLower",
+    "Borwein.CuspSineChunk0",
+    "Borwein.CuspSineChunk1",
+    "Borwein.CuspSineChunk2",
+    "Borwein.CuspSineChunk3",
+    "Borwein.CuspSineChunk4",
+    "Borwein.CuspSineChunk5",
+    "Borwein.CuspSineChunk6",
+    "Borwein.CuspSineChunk7",
+    "Borwein.MomentExponentChainCertificate",
+    "Borwein.MomentExponentData"
+  ],
+  "initial_local_artifacts": 0,
+  "jobs": 2,
+  "lean_version": "Lean (version 4.32.2, x86_64-w64-windows-gnu, commit f3b06c705e6c85f5314019d5d3baab0fec5b580c, Release)",
+  "max_private_gib": 24,
+  "modules": [
+    {
+      "exit_code": 0,
+      "module": "Borwein.Reciprocity",
+      "output_sha256": "3913a8e12ab2b0abd47cc9d4aa9866bd0dca91fd29b9190ab0aeb5c0ddab860e",
+      "peak_private_bytes": 4111130624,
+      "resource_limit_exceeded": false,
+      "seconds": 19.034,
+      "source_sha256": "74fdff511cfe50893c7cf8672237f90c2f4225152c29f64bbd72f82c309fd13a"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointEta",
+      "output_sha256": "5ce8c4973ca853586611c1279c45e3f291bfe9c4b93356b7bb0a954ac34188c1",
+      "peak_private_bytes": 4315426816,
+      "resource_limit_exceeded": false,
+      "seconds": 19.534,
+      "source_sha256": "d1d97f41e67d2f7f939db252fdb50a9b9d53ff3abf49c7b4c7703d902f690dd1"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.StableBorweinSeries",
+      "output_sha256": "57389b842a9ce14134bd5f4ee0a94ff07b294a855bcd69729ffd4bd327a45f03",
+      "peak_private_bytes": 4117159936,
+      "resource_limit_exceeded": false,
+      "seconds": 18.021,
+      "source_sha256": "6886b417e9aa4183f55f239f078c1bacffaffc74de9254ec42dcb2bc2a0962b7"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointPositiveCusp",
+      "output_sha256": "00438cc220527a2d279ce5172487c8cd14cef7d4314117fed7797d381cda1eca",
+      "peak_private_bytes": 4327927808,
+      "resource_limit_exceeded": false,
+      "seconds": 20.021,
+      "source_sha256": "5470b79ae4ea7a34cf72509a078178af52ab1bb8643335d11e2fe441ea9c66da"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.FirstOrderTailProduct",
+      "output_sha256": "7ad11480a0101939db6c1d9023d99cae49ea462eb038ba4969a258072ce61e33",
+      "peak_private_bytes": 4116811776,
+      "resource_limit_exceeded": false,
+      "seconds": 18.015,
+      "source_sha256": "9cf449560542d1b8e8276f6ff524453162858b151c8fc5f3af71c0bf84228b04"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointEtaBounds",
+      "output_sha256": "fb86a656235375ef618c08021f233eb2d87f49d8b90945b14a0fde8025189116",
+      "peak_private_bytes": 4379107328,
+      "resource_limit_exceeded": false,
+      "seconds": 21.018,
+      "source_sha256": "259b99abadff3273c3caf3a6bd45167d253af5049de1ee950b8de9785209b96a"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointEtaMobius",
+      "output_sha256": "8d11ab7808f6c07fa88ca5fb8fdf2e53d3ec32834bce4aebe3ccc45e8815a6a3",
+      "peak_private_bytes": 4365225984,
+      "resource_limit_exceeded": false,
+      "seconds": 20.025,
+      "source_sha256": "04b5455ec011e66d07a9bcd53dfa5c7fee51d34dc3b175c59b69ab2484f0dd7e"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointEulerTail",
+      "output_sha256": "acdc808a6817491cba0a2f0a44e0b1c13ac1e1bf7d0e4ef27e4cd69e89e1bc85",
+      "peak_private_bytes": 4351995904,
+      "resource_limit_exceeded": false,
+      "seconds": 19.022,
+      "source_sha256": "0c86c088f875fb720bc96d79dbe96ed86e384c549063489825e898467fa5e4cd"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointCuspTransfer",
+      "output_sha256": "9ea1f07913f8cea4da4400b1101129e7e80462db051dc4b136a054ede198e8ab",
+      "peak_private_bytes": 4343476224,
+      "resource_limit_exceeded": false,
+      "seconds": 19.516,
+      "source_sha256": "d224c1160060df6c8ecb76d532ce56d4552a3a6d27cc35eea368246857eb5648"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.ProductSmoothing",
+      "output_sha256": "47adb9cf5056e657b6d11f456942428bb6b0649c4e42459327a1b8b3f05fc5fb",
+      "peak_private_bytes": 4450304000,
+      "resource_limit_exceeded": false,
+      "seconds": 20.015,
+      "source_sha256": "9cec4f8ae596e678f9f9018f1faf50b84349116528fac21539b091fa6f4825fb"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointEtaTwo",
+      "output_sha256": "a1d1735c52949d1a4ff3c72cdac0c080b2d61225899b6474e83fb8de1b93e3ad",
+      "peak_private_bytes": 4338057216,
+      "resource_limit_exceeded": false,
+      "seconds": 20.02,
+      "source_sha256": "5924e1efd1985ce6bec1b4cc45f5b37f7484e8a90b283f173520d6b301375141"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.FiniteFourierKernel",
+      "output_sha256": "90601dd1b08e29826411089e20b49fcda155224c830be49da92ee01d30a684a5",
+      "peak_private_bytes": 4451139584,
+      "resource_limit_exceeded": false,
+      "seconds": 20.521,
+      "source_sha256": "74c35444f718ec47b22c960642ab779f9383bd8a1b3b339b63ad67479745b129"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointCuspConjugation",
+      "output_sha256": "673f8b6d79bc53e9f8bd770bb107e031160d9abefd37818ca053829b03a5ac7a",
+      "peak_private_bytes": 4332650496,
+      "resource_limit_exceeded": false,
+      "seconds": 20.522,
+      "source_sha256": "8750564462288832e230a65a15a93976b223d9503f0206015279e369df4250e0"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.DirichletCover",
+      "output_sha256": "45092347c388995387ab379709c51596c65170b289b6f746a917b5e4c1c7a543",
+      "peak_private_bytes": 4449685504,
+      "resource_limit_exceeded": false,
+      "seconds": 20.018,
+      "source_sha256": "7aaf246ae908ac30f058072d610219c0eb8afb24a7df6f5b76194fe57a25c3ee"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CotangentRemainder",
+      "output_sha256": "3165acfe6af87ef9f8b5c59e9cc072a8929b33d84464062030d5f1570e189b12",
+      "peak_private_bytes": 4625186816,
+      "resource_limit_exceeded": false,
+      "seconds": 20.522,
+      "source_sha256": "607bb443da1feeca7bac7baa397673684a2864c2303d325310b82f48585d969c"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.AngularKernel",
+      "output_sha256": "3a35a8f0b1bcfee4f6d4d1dc1d18f4d3e3c9335be06dbd8629d0e7aee7b3c81e",
+      "peak_private_bytes": 4473364480,
+      "resource_limit_exceeded": false,
+      "seconds": 22.018,
+      "source_sha256": "8eb7fa4e8e0285b3f46796e4affbdb608986c908437fe0dc1bfc86ebb610b496"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.ExponentialKernelRemainder",
+      "output_sha256": "4f5444555b9f159b26f693b9384f004331489e66757c69ecea597d5b53ca5a60",
+      "peak_private_bytes": 4633415680,
+      "resource_limit_exceeded": false,
+      "seconds": 21.52,
+      "source_sha256": "8e7cf93f1238227b20ee87aeff0e6d7103da5db187bfe1adb5a146bd887dc0d8"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.RadialKernelProfile",
+      "output_sha256": "40e2c386bf41ce0343cac43f9b7eb03dc18e21b165595c1caac7b2a26a4bb394",
+      "peak_private_bytes": 4480790528,
+      "resource_limit_exceeded": false,
+      "seconds": 20.518,
+      "source_sha256": "84bde9393cd9ae956502aa885645ee5280ed1b442658641ba4eb57b9029d578f"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.WedgeExponentialKernel",
+      "output_sha256": "3f44670bed3887c00fe27d8a5f1453ba514da37f19b39b5b4579abd6947d5452",
+      "peak_private_bytes": 4653621248,
+      "resource_limit_exceeded": false,
+      "seconds": 21.018,
+      "source_sha256": "e2515ec53725c2c62eafc059624a117f5a3bf18f1a8123bed5ddb4edff79c562"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.PoleVariation",
+      "output_sha256": "8e628f59780aec21f68a73f5aa3250745708726f09c3cff80c1c75f40fcb76e0",
+      "peak_private_bytes": 4467101696,
+      "resource_limit_exceeded": false,
+      "seconds": 22.017,
+      "source_sha256": "c493a6463329a75a6d9c7dd62d4177bf7ff81f1eef9ceda441d268313f1b6df5"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.PeanoQuadrature",
+      "output_sha256": "97bbebad0e24b840a9700344e2e611cfcaf9b16895ea187ff1d6cc5f2469ac76",
+      "peak_private_bytes": 4441665536,
+      "resource_limit_exceeded": false,
+      "seconds": 20.016,
+      "source_sha256": "a21db7d0ef6144c50abb8c20a99f1efda46ff00c05472addc820305ee31469b0"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.FivePoleDecomposition",
+      "output_sha256": "710549bdeb624ddb578fc22b98b44c6b0b7d4de4c634153a23bed132ba9166ad",
+      "peak_private_bytes": 4452106240,
+      "resource_limit_exceeded": false,
+      "seconds": 19.52,
+      "source_sha256": "cb30fa4b3f9ab4ca9fdbb416b5a1aefc1eb248235d00c3b1ac7ffde7fa3fe271"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.PeanoBounds",
+      "output_sha256": "943d9d0027084c7d53bafaa502d78c6da953e66e192a2de2f6b31d5ab624a8c0",
+      "peak_private_bytes": 4409622528,
+      "resource_limit_exceeded": false,
+      "seconds": 21.019,
+      "source_sha256": "4b2e9ce37df4b61d64aa5e8ec14106cfb745216ea492925c0d7fec35e6dd6eab"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.FivePoleCircle",
+      "output_sha256": "3f48e551a2a596a02e8f3771e01b024da6215d7ac8f47ddd66bc78673d080a17",
+      "peak_private_bytes": 4463435776,
+      "resource_limit_exceeded": false,
+      "seconds": 20.016,
+      "source_sha256": "b13a225a4b1fc4a1826a42055c22f99623a7cd8a69850610b20e825b4ae65935"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.ScaledPeano",
+      "output_sha256": "4e144f7f0d42e6b2b32165a0ba1ddd61d79f2c38de442cf0d46d329b1c074b41",
+      "peak_private_bytes": 4389675008,
+      "resource_limit_exceeded": false,
+      "seconds": 20.518,
+      "source_sha256": "8606a8ffb0efff30dd40992cb40b22fef26a74272f289403e9a7bd0965259991"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointRootAsymptotic",
+      "output_sha256": "c516c48d91a9325fa178232c3d3e14db2200a5e3e56d9c0cca9c1e060126b65c",
+      "peak_private_bytes": 4857335808,
+      "resource_limit_exceeded": false,
+      "seconds": 21.524,
+      "source_sha256": "9bba4630530143f22c0bb854b91bb18b951f1be9ed8718d8c47e2dd806ebda44"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EulerMaclaurin",
+      "output_sha256": "580f797f5b17d7eb58c56910b083cbcb6a81719d7fe22e0b6a2cc96584ee62a2",
+      "peak_private_bytes": 4394356736,
+      "resource_limit_exceeded": false,
+      "seconds": 20.023,
+      "source_sha256": "8b1bcc8ab02b2c74f48e9ce4059d05e52a11557fd2a6a7385e005b0513faeec7"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointFiniteConnection",
+      "output_sha256": "657a571a18b5ccf425a7807324f745977d7cee6a37d12d56993352435cb288f7",
+      "peak_private_bytes": 4863053824,
+      "resource_limit_exceeded": false,
+      "seconds": 21.525,
+      "source_sha256": "504fc09dd9580c113d0a4d62aa77fa51c079ffac0a122947ab63057cef136432"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.LogFactorDerivatives",
+      "output_sha256": "f961f56a077d9a5579084be53ced0f83baef5c5d9fc3593fd348d1e30940cff6",
+      "peak_private_bytes": 4438589440,
+      "resource_limit_exceeded": false,
+      "seconds": 19.515,
+      "source_sha256": "a76035bccd5940495457197682d5c4f04e867142e5499aa603d70d2458c854cf"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointTailLog",
+      "output_sha256": "490766f6f4ec7721424b902af2557e510884d518b72a78957e975dc9ecbfa935",
+      "peak_private_bytes": 4858118144,
+      "resource_limit_exceeded": false,
+      "seconds": 20.518,
+      "source_sha256": "44b4ac3facbfad2dbe4a36574cdd7e713e078e5c0f6b0122ef557e40b3110ab2"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.LogFactorEulerMaclaurin",
+      "output_sha256": "4f80c43eca5d07d2429ce5a06ae883264d8264ec2d441f5b1819eed70b1c1782",
+      "peak_private_bytes": 4437561344,
+      "resource_limit_exceeded": false,
+      "seconds": 19.019,
+      "source_sha256": "19808b62c906da8660a5fd664a2e9427cbc3105b460d5395e809a808438df206"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.LogFactorProduct",
+      "output_sha256": "fb520774c29f85b641b4189bd28fd9addac2b0ee488af900ec0547a23af67a69",
+      "peak_private_bytes": 4435345408,
+      "resource_limit_exceeded": false,
+      "seconds": 19.516,
+      "source_sha256": "ee99e46c1588a63ed34764abef04ed40f58bb1e2b6cdf953e057d92e09395954"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointTailFourier",
+      "output_sha256": "1d3dc0848d3688755dc9aaf956110dcdfd80e1f4297a2fe9339449e7adff91b1",
+      "peak_private_bytes": 4925870080,
+      "resource_limit_exceeded": false,
+      "seconds": 32.033,
+      "source_sha256": "b9a26572cfbae79804ea6636407d59c59fa26e8c1cee997a6e49ba8768c0a57e"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.FiveRootProductExpansion",
+      "output_sha256": "504ad382fefe7810369382cdb2490770fe9148aa40818b10802c93f871fb168c",
+      "peak_private_bytes": 4439281664,
+      "resource_limit_exceeded": false,
+      "seconds": 20.518,
+      "source_sha256": "d6a8e1999956ac7a5569b0a28b7154e4a7561bf26e3dc6b763eaa92914f87931"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointTailRootSeries",
+      "output_sha256": "28f070ecc623f722baaeed328aae8cd2e7a3abc6893b347439a9baa5c4121d7f",
+      "peak_private_bytes": 4850335744,
+      "resource_limit_exceeded": false,
+      "seconds": 21.02,
+      "source_sha256": "a6e43792764ec18142a2be997b5509924ad9140108fe69d9bf7343d2a6bd1869"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.FifthRootCoordinates",
+      "output_sha256": "fd303a801953e81944d90a0dacb9c9c2b4ebfeb9b601f37328bfa71f949b81d6",
+      "peak_private_bytes": 4437684224,
+      "resource_limit_exceeded": false,
+      "seconds": 20.017,
+      "source_sha256": "358406b140842f7ba7a4dcc66ccd2e6b2f85f5c4e4eda148484aa4240a838739"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointTailGlobalKernel",
+      "output_sha256": "3ee7e7921e1310137d58bf3b47074734f64f233d2e5518b90ed16b20162a944a",
+      "peak_private_bytes": 4862779392,
+      "resource_limit_exceeded": false,
+      "seconds": 21.517,
+      "source_sha256": "b6b1f01d596e13e12aa4cf995a711c8cbb8bf8ee5880c1b98aa8f19deb84a2c3"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.SineCertificate",
+      "output_sha256": "941942eeed78a066c6871f33073e829bef0c134442da0abbcf4fcb6b7c69d8a9",
+      "peak_private_bytes": 3370483712,
+      "resource_limit_exceeded": false,
+      "seconds": 19.016,
+      "source_sha256": "631551cebf11c26e766ce40c0a2b6fb0581ded5e2855192950f75aebf1fd2081"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.SincBounds",
+      "output_sha256": "ec48db6465dfeab5177e3e0f7f26c108270472458402a3558fb68edaec1700b0",
+      "peak_private_bytes": 4275740672,
+      "resource_limit_exceeded": false,
+      "seconds": 20.018,
+      "source_sha256": "fc1ec94f3f1f52c29518106247fc76321c1a98ef02e28c1d93aea11001b79dd5"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.SmallAngleBounds",
+      "output_sha256": "65cc3c4ed9649a952c4679ffbae1d6806ad42651b8ecafe05740bc38b774e7d1",
+      "peak_private_bytes": 3361599488,
+      "resource_limit_exceeded": false,
+      "seconds": 18.018,
+      "source_sha256": "e18d35fabf870afe9b40ec0a12c6673efdb0b4db619224ba494f8f5b6929d51d"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.PhaseGap",
+      "output_sha256": "5ca43d711fc3f8266156b17273133616bbeb294cb725c854d20cca6d0b7ccf57",
+      "peak_private_bytes": 4433448960,
+      "resource_limit_exceeded": false,
+      "seconds": 21.017,
+      "source_sha256": "c1b23008a579b0b4c6fdade0cde07493f5827068290d78630994de2cfbaf49f6"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.FifthRootSeparation",
+      "output_sha256": "6bec1b1e5e2903cbc3bc079bfed6f20b8f6143b958aa8766a08c701f638ca158",
+      "peak_private_bytes": 4456361984,
+      "resource_limit_exceeded": false,
+      "seconds": 20.016,
+      "source_sha256": "b47d0b7072849b7198758cce4efe8a4d33299fe781881d7617a9a23ede833f37"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.PhaseIntegral",
+      "output_sha256": "27cb7dd1791e7f41f73a1c72d7fa9659e49f1c2329fb2555527468ea9d2b6e55",
+      "peak_private_bytes": 4416585728,
+      "resource_limit_exceeded": false,
+      "seconds": 19.018,
+      "source_sha256": "9133a6b3a6d1ff5e7a4ce47cad114deddeb46dab0bf57e663271a6cb087b2748"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.LargeBoxSeparation",
+      "output_sha256": "cc65b1732b33a58d7ecdf31d1969d3b7cac695949283c2c2aa5307536a656c66",
+      "peak_private_bytes": 4521938944,
+      "resource_limit_exceeded": false,
+      "seconds": 21.019,
+      "source_sha256": "524742e34c1d01370ffb6172dd8c3605fa586f9389f520fd2bad9681f6443a3b"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.PhaseBoundary",
+      "output_sha256": "db0fa94cbdf26dfac6167299ed580a50f86c9c63daefaac65fbe76c62e8d8dd3",
+      "peak_private_bytes": 4405223424,
+      "resource_limit_exceeded": false,
+      "seconds": 20.519,
+      "source_sha256": "1486d53ef0120a44983dbd5cdc8ab7b79349d6eed0d32171ed0128d29002ad00"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.WedgeRootKernel",
+      "output_sha256": "7f85d9444150de61805a22409c6438e75d04535393f3c9953e56638819c41ecb",
+      "peak_private_bytes": 4507422720,
+      "resource_limit_exceeded": false,
+      "seconds": 21.019,
+      "source_sha256": "49fda9bce6df89010448570e13c64e0fcab1e785689627e8b2b7d7d68e22e68f"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.LogKernel",
+      "output_sha256": "266fb7e5b3412c6da3cd625f45257c6db6f4db2c874c93a2aa9ef02307924903",
+      "peak_private_bytes": 4447252480,
+      "resource_limit_exceeded": false,
+      "seconds": 19.517,
+      "source_sha256": "5ec98a8763a2158b9f170fafb20363156f417c567331234664ce6e46689c13b7"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.WedgePoleDifference",
+      "output_sha256": "e61931b02bc12a5a88481ea02663ed43018ce193bc986a20c58b3a5f1ebefcda",
+      "peak_private_bytes": 4457795584,
+      "resource_limit_exceeded": false,
+      "seconds": 19.522,
+      "source_sha256": "cf707c15445cebc43844c702eebbc19069f03741b54f9846a8c7a81dcde09fb9"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.Dilogarithm",
+      "output_sha256": "bc870cb04d672b60552224cb388b65b09c199c4f950c7e1bd29be3af40182160",
+      "peak_private_bytes": 4613963776,
+      "resource_limit_exceeded": false,
+      "seconds": 20.018,
+      "source_sha256": "19137c19d5088d7629b70ad9f1f01a273388bf47122042b8437f23fe9d0931ee"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointTailKernel",
+      "output_sha256": "5a8597ca3f2621a4231b616fa8034b8e91fab87861606e5c7c1b8a5b1953e592",
+      "peak_private_bytes": 4867371008,
+      "resource_limit_exceeded": false,
+      "seconds": 21.522,
+      "source_sha256": "8b76c61b7891f184b190f6b52533916dd5407e9ccda9092fa141fa21f8fae087"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.ComplexKernelBridge",
+      "output_sha256": "4bfd3bda3a1fe56ef05caf4790b8cdf377fe07ded7113e2f287a599eada2b7db",
+      "peak_private_bytes": 4590108672,
+      "resource_limit_exceeded": false,
+      "seconds": 20.02,
+      "source_sha256": "ee71d5f73aab8b5f0ac87e81f153e9038da73166a3e3a8fcfe5bdaf7d4ccee09"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointSharpTail",
+      "output_sha256": "cc88ffdfc21e117eae460ad01796772867e915ae725438fe304f4f892d64ce70",
+      "peak_private_bytes": 4884897792,
+      "resource_limit_exceeded": false,
+      "seconds": 21.518,
+      "source_sha256": "8d7854c633582754768104d2950ed2fba6db637aec263eb99b60741c3ef32985"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.RadialMoments",
+      "output_sha256": "29953278bf67c3f7baf700c18ed365467924661aec208d7d8443682a509cc353",
+      "peak_private_bytes": 4433252352,
+      "resource_limit_exceeded": false,
+      "seconds": 20.521,
+      "source_sha256": "b9f9e6d2de4a7b5cbff3bcd1d691d32f63edebf65dd8273f595964a06894d29d"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointTailMain",
+      "output_sha256": "c4f8aa779b3deadc5987aa6fa5d9ef8bc7aeb9891fb364c10d60c5eaaf909f20",
+      "peak_private_bytes": 4894924800,
+      "resource_limit_exceeded": false,
+      "seconds": 22.019,
+      "source_sha256": "f604ad7b19ac0748c25f64903f2c3834cd4c7704a9d36203523f4681b81ccb6f"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.RadialDerivatives",
+      "output_sha256": "0ffeca28cc7cb4e1c717744886939c8f431e267886cb1697dd77fb2fb96bba04",
+      "peak_private_bytes": 4436819968,
+      "resource_limit_exceeded": false,
+      "seconds": 19.518,
+      "source_sha256": "15190a248215c08e7399281a264b17ff7c448acff2f217b66a5f204a9f8361d3"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.SaddlePoint",
+      "output_sha256": "f3634d0bef3003293c2fd57a793fcb1b0cc977232647fc7448ce8158cb8f76db",
+      "peak_private_bytes": 4459544576,
+      "resource_limit_exceeded": false,
+      "seconds": 20.019,
+      "source_sha256": "4a9b1411c0500972b500b1c17942855bbfea078fec09973050ed2eabe12553c1"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointFiniteTailExpansion",
+      "output_sha256": "dd31b4c06f25b1a2851efb0373c5abd876416e099b41009ee0afad6d82c218d5",
+      "peak_private_bytes": 4866605056,
+      "resource_limit_exceeded": false,
+      "seconds": 21.018,
+      "source_sha256": "9f31073c664749ec41320a0245acdd7b2fc520088ce0011956d28f4ce7429ab6"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CentralMoments",
+      "output_sha256": "5d6f4e1a41a9140876b533761b915bfed73b681a7411dc7aa06402e81479df68",
+      "peak_private_bytes": 4462063616,
+      "resource_limit_exceeded": false,
+      "seconds": 20.019,
+      "source_sha256": "7839bfa37e755b99410e0d7bd29f2160dad658c708b7829795b6a6ac80283880"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointNormalizedTail",
+      "output_sha256": "5d56d51762ec898d60263a86780892abc0bd99ed86c1b2fe98c53249d89e0e1c",
+      "peak_private_bytes": 4871995392,
+      "resource_limit_exceeded": false,
+      "seconds": 21.023,
+      "source_sha256": "79470cf06f11afe814f35ecd19e2e209738c6359742d83e2a6a81ed0b188556e"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointPhaseAtoms",
+      "output_sha256": "8e92ed9492e4715a9175e36afe8dc1a6e1683ad42295ec4613364a013fd47f1e",
+      "peak_private_bytes": 4870385664,
+      "resource_limit_exceeded": false,
+      "seconds": 22.018,
+      "source_sha256": "0c9cecb0d167c247595c8f1f1077d74d458a6861043ed7b6402f074d7f62bba8"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointRootCancellation",
+      "output_sha256": "37c5855d2af0896eda99a46a6e524e4d24cd5d8e29f022ee72016c167fed6a25",
+      "peak_private_bytes": 4926562304,
+      "resource_limit_exceeded": false,
+      "seconds": 23.017,
+      "source_sha256": "6acb1409cb1e8016fb70f1c28c739950f03428600dc7f45dd7f31df4e66cb90a"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointPhaseSeries",
+      "output_sha256": "77e50503b2e58665c22a9a15f5f5db54c550b0fa91d33065ee2b8bf2265e2016",
+      "peak_private_bytes": 4878393344,
+      "resource_limit_exceeded": false,
+      "seconds": 20.518,
+      "source_sha256": "ab10b971c3319ad72d4ed3169166450ec29c0751459c9467125424ab8b4a350f"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointRootLinear",
+      "output_sha256": "9568df2bf99900790f2998a39abf7c93edd9eb983a64d4e2f0f31a59e8c95c53",
+      "peak_private_bytes": 4879548416,
+      "resource_limit_exceeded": false,
+      "seconds": 22.525,
+      "source_sha256": "5b66aa54addb60067182b69341a43fd16280b12c9923973b1438c06a594f417f"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointPhaseDerivatives",
+      "output_sha256": "b1d9889be7bc85f7f848962434dee2cabbe0ace047dd77b643b97b49c97cb786",
+      "peak_private_bytes": 4878716928,
+      "resource_limit_exceeded": false,
+      "seconds": 21.021,
+      "source_sha256": "cc4aa3f9ac80ba27063dac8d26fece79f792fbd4c47d8afc089b1ac6b4d09b42"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointRootPhaseSeries",
+      "output_sha256": "87020f3a1969b1555ae0431a15a4ed33e9cc489ddd1cc95e60e3e63b6ffa9056",
+      "peak_private_bytes": 4903669760,
+      "resource_limit_exceeded": false,
+      "seconds": 23.017,
+      "source_sha256": "c024047129715e866d6985d5170d0d6d408193e8bcb2239e3ea79f08196b7e79"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointActualPhase",
+      "output_sha256": "7460aa34f0332479a87f4a7d19fc57594c3add14ac974e471f4a6ffd3df466d2",
+      "peak_private_bytes": 4895748096,
+      "resource_limit_exceeded": false,
+      "seconds": 20.518,
+      "source_sha256": "dd123790b049a936e088ab60a874a90e6ae07d4383f32ba5c8920f221ca4052b"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointCombinedPhase",
+      "output_sha256": "f1da14b2e094040005f1e9c4b113f0dc102e058f7a1482412856408417ba57e1",
+      "peak_private_bytes": 4868165632,
+      "resource_limit_exceeded": false,
+      "seconds": 20.017,
+      "source_sha256": "2c2b5667341d7ae525ba7beb260815fadab861766158fc72f102b441186b6dab"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointPhaseBounds",
+      "output_sha256": "b3e6ee2d7d22e7647be781b57fef7aa699a1462b11b09e458602f5cbed2ac667",
+      "peak_private_bytes": 4879691776,
+      "resource_limit_exceeded": false,
+      "seconds": 20.52,
+      "source_sha256": "e8c308c6cbf5a5ea71e2733f96c5ac34eba136bbb7942c7a3a3107d1289be7c1"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointCombinedTail",
+      "output_sha256": "1751022f9d85d645d0f0d976c4c408e640a14fdad52067a35d023cfeadfe1fd2",
+      "peak_private_bytes": 4895764480,
+      "resource_limit_exceeded": false,
+      "seconds": 21.016,
+      "source_sha256": "cfdc7be6a214fcf363e05d8e53f2018ec87872c0e9a7ba90812e503b9744b558"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointStrongConstants",
+      "output_sha256": "c39aabdc0ba5e31b6a3e5b5a6678102bb6f2a2cb93b92de2250169756ee4538e",
+      "peak_private_bytes": 4886921216,
+      "resource_limit_exceeded": false,
+      "seconds": 21.518,
+      "source_sha256": "a618c843a9773449c2797100fb0be866aefba9ad97115fdb172e141d371dd45c"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointWeakTail",
+      "output_sha256": "a608071c0b84aae61b51682fdc99af1bcc0639dd29d3d5ad72e1d7a549966a26",
+      "peak_private_bytes": 4868919296,
+      "resource_limit_exceeded": false,
+      "seconds": 21.518,
+      "source_sha256": "6022542bb2b24caf2c0d1eb15e0872dd2fe23e6eed23cee75dffee91b9a18922"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointStrongPhase",
+      "output_sha256": "d48601530df3057d69655a1290a81ff95870bceebb26f7eac288d7531d871c2f",
+      "peak_private_bytes": 4890390528,
+      "resource_limit_exceeded": false,
+      "seconds": 21.518,
+      "source_sha256": "e8114c37c0469b7fb492ae116dc8e5c8fe897c3853a328382812f7076dfa60e6"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointTailGlobalLog",
+      "output_sha256": "55dd017805b45e1f32b774cb8b6ce49c41ed9c1d0e6beef6654778b53957c9a2",
+      "peak_private_bytes": 4897734656,
+      "resource_limit_exceeded": false,
+      "seconds": 21.017,
+      "source_sha256": "c10b26fb88304797aef1fcd62cf15c48738f429ef863fbdfc8f5b68278002a7c"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointWeakPolynomial",
+      "output_sha256": "f82d072c7d52056ca25b93a4309d6b839db332dca9f54f3aeec8da3eb2c36ed2",
+      "peak_private_bytes": 4874366976,
+      "resource_limit_exceeded": false,
+      "seconds": 20.521,
+      "source_sha256": "e2fdd103f8030b6ff785a8c50b1a2ff75b8764770c9a100b8c1d59cc94b0d09b"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointScaledBounds",
+      "output_sha256": "f0003a6f60739834fd54c4cf4aa2c6554d2d360346852e112931b38bd25ee132",
+      "peak_private_bytes": 4888109056,
+      "resource_limit_exceeded": false,
+      "seconds": 21.02,
+      "source_sha256": "dcfb41a57c971cb89dcfb8129fd72bc8655886b27df854a0a95442ee407a76dc"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointEtaTailBound",
+      "output_sha256": "a75303b66360b36a7e16a32f2bbb5774c9746757bd93277a45f400d25ad2b856",
+      "peak_private_bytes": 4860182528,
+      "resource_limit_exceeded": false,
+      "seconds": 20.017,
+      "source_sha256": "38767d410a766e61091519b5b01fc1df3b62c7e045189724223cb98e2e2069ff"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointProfileMonotone",
+      "output_sha256": "f6b3e2d699ca62e22c24864c4642f7593d49fd29cc26f70d97ef539c7d9e5b46",
+      "peak_private_bytes": 4899184640,
+      "resource_limit_exceeded": false,
+      "seconds": 20.518,
+      "source_sha256": "afeb7116f977d1e428542786106f40cea7567acc26b9a2cf3e1f338bffeae587"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointTailContinuity",
+      "output_sha256": "0b23516dba029aab580fbd8cf947d5827bd02e34598d31876eb730bfcd56a268",
+      "peak_private_bytes": 4872359936,
+      "resource_limit_exceeded": false,
+      "seconds": 21.015,
+      "source_sha256": "c22c254f26399769b718d2a25b4eb080f9cb66f2c04b7f1f3d43fed3e38ed0b2"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointStrongPolynomial",
+      "output_sha256": "efd08a9390c686075b0f8f022945e896b186b8280660a7936d0a3e0cef7ac196",
+      "peak_private_bytes": 4896329728,
+      "resource_limit_exceeded": false,
+      "seconds": 21.517,
+      "source_sha256": "1fb7ca9fb6ff57897de6a54769f03e1dd76b7f1d6c521fb03d40d02d0f3f43ad"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointProfileBudget",
+      "output_sha256": "758179ebfbb19f4579783afbbfb9bd834bbc31b4a8c4fdeeb6a00b65d8522d80",
+      "peak_private_bytes": 4891783168,
+      "resource_limit_exceeded": false,
+      "seconds": 21.019,
+      "source_sha256": "fd9e9550ecfe160469773e9efd21b8ad641f7ed5099c6da9e371b87759ba35b7"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.GroupedWeights",
+      "output_sha256": "6bed7be43e6216ec674b93e1a895b7d3f17db369c1adfd028a98070d8a7765e8",
+      "peak_private_bytes": 4461977600,
+      "resource_limit_exceeded": false,
+      "seconds": 22.018,
+      "source_sha256": "5bdae2ad19c99c872d457bdeea0d4134700df708c4545e462d68867cfe0e8c9f"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointDerivativeConstants",
+      "output_sha256": "1925888c442a840afd3aa42e182db315b4463cffe1f9c74164b1bf6696c6f008",
+      "peak_private_bytes": 4926971904,
+      "resource_limit_exceeded": false,
+      "seconds": 23.521,
+      "source_sha256": "1a31a2b0b052b1feeed1eef056869cd4cdd05406208912434797faa443cecd55"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.StaircaseGap",
+      "output_sha256": "83a2a022670e30438a11a17b783a758841d7942c9476a55774350914d2717e5d",
+      "peak_private_bytes": 4445937664,
+      "resource_limit_exceeded": false,
+      "seconds": 19.517,
+      "source_sha256": "7e18a991887180e3e40d29c53c124a963c65ea427889efc417a43563f89eb437"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointRadialDifferentiation",
+      "output_sha256": "e2446dc947e198ffa81b20961a5fc2f34d08b6b9d22b575f52b1260e8b0ba3f6",
+      "peak_private_bytes": 4888055808,
+      "resource_limit_exceeded": false,
+      "seconds": 22.018,
+      "source_sha256": "d4b641699aa34518f679da707ab1a008806a3692346e78688cc8616c70879366"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.ResonantCertificate",
+      "output_sha256": "f66693d29b56b79da3f51fc80eec33b6c849617c4b4b19d938ee1ab16ff00a05",
+      "peak_private_bytes": 4492013568,
+      "resource_limit_exceeded": false,
+      "seconds": 20.518,
+      "source_sha256": "e2d4bc3646ce0ffe2165550bae1005976a74f8ee62ce0bd40c26ac52e633c9df"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.SecondOrderSegment",
+      "output_sha256": "d8f39c7d5277a6ffdf574dd16397c576cd774646ea9481d6b9e6aee565f06535",
+      "peak_private_bytes": 4429393920,
+      "resource_limit_exceeded": false,
+      "seconds": 20.017,
+      "source_sha256": "6e7633e1be0cfa78900f8cab3a143c967a489c4bdb9a728b3504af99ed09574c"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.PhaseSingular",
+      "output_sha256": "b3c36f7df879ecb20732d64cc1a18f4ea4f475024ed575c51ebc85a303b81a29",
+      "peak_private_bytes": 4473397248,
+      "resource_limit_exceeded": false,
+      "seconds": 19.518,
+      "source_sha256": "c29c4092c3627b706f9195acbcdddea1cd6438c27dc13d10c3b44597517db392"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.HigherOrderSegment",
+      "output_sha256": "7b3373c6115ade8ce5cd26b4f83205aa9e90c4089a93f758c3206cbe2d2cef24",
+      "peak_private_bytes": 4466208768,
+      "resource_limit_exceeded": false,
+      "seconds": 20.016,
+      "source_sha256": "760b31459ab64ef820bed6b8dd4b7d8ad07ee7614fb9190f4d5354a29172f0b8"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.SmallBoxPhaseDecay",
+      "output_sha256": "5a79eca99331dee44852bb78702c17afe89dd956ade5a2bf8e4ceb84a635665c",
+      "peak_private_bytes": 4514992128,
+      "resource_limit_exceeded": false,
+      "seconds": 22.52,
+      "source_sha256": "27a771e2ccbd9c1866685475fcab2189826b8ec174ae91863d88b08c5e13a2b5"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.ExponentialSegment",
+      "output_sha256": "43a6db2fdde0aa5650e55a3aca4e544cdbfe60253677bc73a63eb3d37a2e8652",
+      "peak_private_bytes": 4438859776,
+      "resource_limit_exceeded": false,
+      "seconds": 20.518,
+      "source_sha256": "1fccde38c6342635fcc6952d3b1332db7ccecb0c25b5ad5dbb7205129c55c633"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointSaddleIdentification",
+      "output_sha256": "94c324c80e9d61f10af985f7decd4532f83d7f4045acbba89032f656b1591d33",
+      "peak_private_bytes": 4876664832,
+      "resource_limit_exceeded": false,
+      "seconds": 20.519,
+      "source_sha256": "ddeafdf21a19a5807093ff8e9116ba9ce1c37e166adba6ba39d2cdc7f34b2cb3"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.GaussianMoments",
+      "output_sha256": "76298cbf78b67865a1a6d97a57d7d392135b2a868b2d519af4393e4fed14d2ea",
+      "peak_private_bytes": 3802685440,
+      "resource_limit_exceeded": false,
+      "seconds": 17.517,
+      "source_sha256": "589123d38f21dc72f9c8cfd90a9eb627046a07edccee1a55be59fc6de0a82351"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointTaylor",
+      "output_sha256": "1d96a51770b6c919bc1c0ffe5dad99447f73bafa1b621684215e4a24ab7bf8d4",
+      "peak_private_bytes": 4879081472,
+      "resource_limit_exceeded": false,
+      "seconds": 21.519,
+      "source_sha256": "5f7e7b9167fd6d66f4e13061a10b3193264528ebfac5880e5a2f7395bd1ec37b"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.GaussianTail",
+      "output_sha256": "29964eae1f1d590f3b606ed60029330ae4113d25c71f18c933549f477a833321",
+      "peak_private_bytes": 3787558912,
+      "resource_limit_exceeded": false,
+      "seconds": 17.016,
+      "source_sha256": "03b4ccf9031c2a428d01e8bef29638c85e627444060bd762fcadce1b76b00870"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointPhaseDecay",
+      "output_sha256": "2c277d6538dd4ce888312f1120795305db3594bd5df3c13b866570ddc06f1616",
+      "peak_private_bytes": 4914364416,
+      "resource_limit_exceeded": false,
+      "seconds": 22.519,
+      "source_sha256": "03d6e0f9e4ee795d9337fb4257b73c172c2385f1eae1aed34ef7e6e4b33bf044"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.AbsoluteGaussianMoment",
+      "output_sha256": "e339e55875d067d7bd7df3391a5be066dd4b9d67e4d629698ce7b01ccf1f0da6",
+      "peak_private_bytes": 3794984960,
+      "resource_limit_exceeded": false,
+      "seconds": 18.017,
+      "source_sha256": "f6f44f2dd6b798dbae2ef1bfd6248c64c1ad69c315964a2bae1c1cb9117d091f"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointSaddleEnergy",
+      "output_sha256": "7a66d1e62329584fc3f41de303c18eaa74c51ab6eeda6817f2e06f556fcb47d5",
+      "peak_private_bytes": 4885364736,
+      "resource_limit_exceeded": false,
+      "seconds": 21.52,
+      "source_sha256": "ab2d4d4a71e407392bb4d4cc3f0626161f9fd9bf7c93aba89630530c3554ec07"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CenteredCharacteristic",
+      "output_sha256": "0970ce5502cde36a67804f303f37ae5cdcb988ce75420300d4bbed01a374e33c",
+      "peak_private_bytes": 4470464512,
+      "resource_limit_exceeded": false,
+      "seconds": 20.518,
+      "source_sha256": "53371a8ffbb866ca4607c43ba1cffdf17adb6e6a7749c54afcabf7f9fac774e5"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointGaussianIntegral",
+      "output_sha256": "6f59a8d7d3f03e61573de96e33777a0de8b61ac7558132d172fe1c392120d5d9",
+      "peak_private_bytes": 4882317312,
+      "resource_limit_exceeded": false,
+      "seconds": 22.021,
+      "source_sha256": "1dad5e1e8eadff3e84b3a1c9019c0c584cef69acbf3cd774c4f3f05ff46175ac"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CharacteristicLogDerivatives",
+      "output_sha256": "7c6858ed717c2755816bcea06d162e23c15fe3350ece776184c7e238b18412f6",
+      "peak_private_bytes": 4474298368,
+      "resource_limit_exceeded": false,
+      "seconds": 20.018,
+      "source_sha256": "0c511106612edd78307ee50388357a48ca7f284daf79ab634f80ff7ddb661ef0"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointAmplitudeContinuity",
+      "output_sha256": "7502ad5b5d41b5df2b185f13da1fefe3dc1c2100bfdd448d7dc61dfbe26e16dc",
+      "peak_private_bytes": 4873449472,
+      "resource_limit_exceeded": false,
+      "seconds": 20.519,
+      "source_sha256": "2a7285f5a5cb769f741718d68d2be7a78b6b1f1178fe5c6abf59ef6dae81d0bd"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointGaussianBudget",
+      "output_sha256": "3800f2d0acaed8c4772b728142483e28573087863c8f4a7503843e2e56976b83",
+      "peak_private_bytes": 4929822720,
+      "resource_limit_exceeded": false,
+      "seconds": 24.018,
+      "source_sha256": "fdf93dad2d25be8dddefb4b99436680703e704481fd4067ee184896e101fb805"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointPolynomialContinuity",
+      "output_sha256": "fd3e3d1b35c79148ce85c25e5563580afbb8aef1821535940482e52c4132d627",
+      "peak_private_bytes": 4895543296,
+      "resource_limit_exceeded": false,
+      "seconds": 20.516,
+      "source_sha256": "b31f04ce69af4649494e1edb30fa3eb46b5e1d54ea057fbf8159cddcad098738"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointAbsoluteIntegral",
+      "output_sha256": "08dd7669e407f8a50946b25389410802490c2a0ec23cd5bf937529d13221ca17",
+      "peak_private_bytes": 4886802432,
+      "resource_limit_exceeded": false,
+      "seconds": 22.518,
+      "source_sha256": "cce32fa931f9dae876824ebcfdffc1ec9c36237b6b3311cb7ce851b55444c064"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CharacteristicLogBounds",
+      "output_sha256": "705650ee0467aab835c7cb4d54883c016d3cfed7c62bb2c34406a0c86b2796c2",
+      "peak_private_bytes": 4460863488,
+      "resource_limit_exceeded": false,
+      "seconds": 21.018,
+      "source_sha256": "62010a1621507e3ad9f9785017a67ed0a7d5a9892912619eac3b3f4294104b53"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointAmplitudeBudget",
+      "output_sha256": "e0a1f925e0b8cf94e4636c1ae11cf8f79fb862e0a5e9947aeb36810473853112",
+      "peak_private_bytes": 4900835328,
+      "resource_limit_exceeded": false,
+      "seconds": 21.017,
+      "source_sha256": "b9538a69145f333a26da4dd09c7c6a25ad81e003fc88ba7c74982f0fa564703e"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CharacteristicPhaseBridge",
+      "output_sha256": "a283c2928f2f47c112e52f82d899a4c4c435797ae83e43dda23a28905add529c",
+      "peak_private_bytes": 4510306304,
+      "resource_limit_exceeded": false,
+      "seconds": 21.52,
+      "source_sha256": "977dc62bbb0481b43404e76d84e00c450634c2e4926cfa4c116cc0671ecd04e3"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointLocalAmplitudeIntegral",
+      "output_sha256": "5ed5174e2241fc51f19f54516bf7ec6aa02faa5a543aa80173af8bb44e74ce54",
+      "peak_private_bytes": 4888346624,
+      "resource_limit_exceeded": false,
+      "seconds": 21.517,
+      "source_sha256": "73854a11c80d165f3cbf3f476fd1dde1ae0a03a6612168c0b66bdcbf59030961"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CharacteristicTaylor",
+      "output_sha256": "f55a17aabf7eaa57c0dd828ca4519bbafae3ea0372a6de2ad030f3a98e4c97bd",
+      "peak_private_bytes": 4491849728,
+      "resource_limit_exceeded": false,
+      "seconds": 20.018,
+      "source_sha256": "9f66e279fc30979bace090d9930afff027fbffe441da2c02b2fd5c614aead935"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointMainArcConnection",
+      "output_sha256": "65ca4fba79c3ccf43fa0b6aa6ab9048cacb9b4dfbce4864b2b40d1b32c0588a8",
+      "peak_private_bytes": 4902100992,
+      "resource_limit_exceeded": false,
+      "seconds": 20.52,
+      "source_sha256": "27abbc6129126505548e3685b3ae3ac29a27851aa93ef3371138b1ab1e607a3f"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.FifthRootLogarithm",
+      "output_sha256": "a70a247642fb1e1cd6b1d047eb7bcfe531d1636ad4ad597453470260cbb3ad57",
+      "peak_private_bytes": 4461686784,
+      "resource_limit_exceeded": false,
+      "seconds": 20.02,
+      "source_sha256": "d224acbe3e30243b51e37cf295da9aa4ffad3aef1f436c3498f2bb836974af5b"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointLocalNumericBudget",
+      "output_sha256": "a2b3941a7b1ec482e51c79c61394c337234e5b5501db497d259c01ade2338c1f",
+      "peak_private_bytes": 4884287488,
+      "resource_limit_exceeded": false,
+      "seconds": 21.018,
+      "source_sha256": "23b440aa69496a73bd46a9f83399aa75fe7681318724c360c1e5091efc9a4a71"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.ComplexMainIntegral",
+      "output_sha256": "6f48c5b159cbc8ea768113eac4f2d3795487239a848468b27bf494799cb11d3f",
+      "peak_private_bytes": 4456255488,
+      "resource_limit_exceeded": false,
+      "seconds": 19.517,
+      "source_sha256": "d6cfc4faa736d135fdca84849677f04b1415bfb77fc7e378883bc5a5adb9cc1c"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointRadialNormalization",
+      "output_sha256": "9ec6fb732aa51c27f2a024e8f79050a16118bde7874bdc3b41380740c2b8430b",
+      "peak_private_bytes": 4928139264,
+      "resource_limit_exceeded": false,
+      "seconds": 21.518,
+      "source_sha256": "2b964292de723823ef64977edaa834e5504846cebf847e1e0f8a9dbf8ee181aa"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.MainTermIdentification",
+      "output_sha256": "279a354059c6cfd1e2d21d93aa208ec41af21a6c8b2069e4a51c9688de10b5b5",
+      "peak_private_bytes": 4613877760,
+      "resource_limit_exceeded": false,
+      "seconds": 21.018,
+      "source_sha256": "1444c24744f17d06143599e1d56a7ae838c36a2a6e05db8da288ab7e764f12ee"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointEtaExponentialBudget",
+      "output_sha256": "d068cd55cf8c845d95f72c22c231920ae5c0f8b20b8f3c2cad93bcd52fa7a51b",
+      "peak_private_bytes": 4914954240,
+      "resource_limit_exceeded": false,
+      "seconds": 21.018,
+      "source_sha256": "78913ed4627f8be5a9f41180a6b08d12913311ad0a7f1306d32939f08ee9c055"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.AmplitudeDerivatives",
+      "output_sha256": "a62ed1cf067fa535f25408acc52b78c4531a092a02cb5ed83c9930ef3c5d0c62",
+      "peak_private_bytes": 4629671936,
+      "resource_limit_exceeded": false,
+      "seconds": 20.018,
+      "source_sha256": "339f8fd69a126009a5a0c2399f21c903084fcbcf27f4aaf1ed9c1b475be7abba"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointEtaIntegral",
+      "output_sha256": "3f49d4c1930ecc1be2a77fdb5562627bde555e2c60e68452a4c71cc39bfb9386",
+      "peak_private_bytes": 4940308480,
+      "resource_limit_exceeded": false,
+      "seconds": 25.521,
+      "source_sha256": "a2858691d914fbfe86ee9bb7d8a63d90ab6348f37ed17193b6c5213574dfc264"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.AmplitudeBounds",
+      "output_sha256": "a16f2159f16ff7cd31fc09311d66328eafadde4ebb68eb5a6e634b93073e80a9",
+      "peak_private_bytes": 4640018432,
+      "resource_limit_exceeded": false,
+      "seconds": 24.019,
+      "source_sha256": "d54051bf2ae404b244cf94d88b3243f60d32941ac49a2498486b0914d0641666"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointFiniteLocalArc",
+      "output_sha256": "3bc666921fcae0c97fc55baec43dd8c62664fd7737f555c9dd9c0b4ab0d02a9a",
+      "peak_private_bytes": 4907016192,
+      "resource_limit_exceeded": false,
+      "seconds": 25.023,
+      "source_sha256": "638d6a22c41ebcdf318b0947655f1eb4075f7661102b41f031182c0558cfc2a4"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.AmplitudeTaylor",
+      "output_sha256": "9f960c6936cb66c1e18d6f86fd01bc5ea4801adbdcb89b27ddc762a8a22b4f91",
+      "peak_private_bytes": 4625432576,
+      "resource_limit_exceeded": false,
+      "seconds": 23.522,
+      "source_sha256": "796680719445ccc2f06c14bb7184f6b4506e423f24250abdaf7838c062be845b"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointPositiveKernel",
+      "output_sha256": "c42593347a8f6a7ba9f9153726b0be6f77bc4ee9a028ed7bdd28b18da6809dce",
+      "peak_private_bytes": 4919988224,
+      "resource_limit_exceeded": false,
+      "seconds": 25.019,
+      "source_sha256": "7994feffb51b352c277e37561af727991674bc13d1d78f2416a10a0f76ab0621"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CorrectionCancellation",
+      "output_sha256": "34d2adeb7e57116442b31f3cb8121bae4d0e85f4e33e164d35af04b6b05534e2",
+      "peak_private_bytes": 4607516672,
+      "resource_limit_exceeded": false,
+      "seconds": 23.022,
+      "source_sha256": "5f61e70c2207b68fba53665b80e81f77bdd72c6ede4bf325da0fe6c3ce9c02c5"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointPositiveFinite",
+      "output_sha256": "fbd442810f59fe702be892ba9e1071d82b6c70ccb27b169b93a9933d0776c218",
+      "peak_private_bytes": 4885155840,
+      "resource_limit_exceeded": false,
+      "seconds": 25.524,
+      "source_sha256": "5815ce3ba8159631243d242dbfa8a9db190c65f3dae27c500c4a074da51c5704"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CombinedAmplitude",
+      "output_sha256": "c6febb4bfa73e56868e2162acfe2636f3c9515906a09a772ed266e22dac6c220",
+      "peak_private_bytes": 4619956224,
+      "resource_limit_exceeded": false,
+      "seconds": 25.021,
+      "source_sha256": "eb1fd15358a495f77ff76909bedc6c2ae16ce7ff33ee3951b02b298e073cb3ac"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointPositiveIntegral",
+      "output_sha256": "131791d32a7de00cd22f495cd440af100dcd6ec68974cfeeb7646104599d84c6",
+      "peak_private_bytes": 4896739328,
+      "resource_limit_exceeded": false,
+      "seconds": 25.523,
+      "source_sha256": "443c147bf64d18d2b14da70c4d23450db4b289de455f7873c3762ad815a1bd96"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointPositiveContinuity",
+      "output_sha256": "649d68d06c3493b6c14e069082b8ed64e7d421775040d71bf3787dda313257a0",
+      "peak_private_bytes": 4891262976,
+      "resource_limit_exceeded": false,
+      "seconds": 23.523,
+      "source_sha256": "1e31ee95fb02d4b4ccfdaea16d977b70e8046c337e34f0136b5cc6aaeb291b3c"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.SymmetricGaussian",
+      "output_sha256": "d9fba8254d14d7bcdf9cce467dda4e2a71c85a7b921a79ba41100d9fded06bdc",
+      "peak_private_bytes": 4626649088,
+      "resource_limit_exceeded": false,
+      "seconds": 24.522,
+      "source_sha256": "21167d366698741037111dcb01eb5484cef210773722a2fa0c981e75560d236e"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointFiveLocalArcs",
+      "output_sha256": "7a05ce56c1f11d569098efd47632dbd028fcc5d92b8a9593933dbfff38f77c3b",
+      "peak_private_bytes": 4922523648,
+      "resource_limit_exceeded": false,
+      "seconds": 25.519,
+      "source_sha256": "3cb223ee76b483e1289b1c9d63fba9b76d3d3de7ce9a6efdf3e0513c898fc7bd"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.GaussianPhaseReplacement",
+      "output_sha256": "0c5d01c0a7075d05c6a12a88885052cfdade4f62576414be97e912712a59ade2",
+      "peak_private_bytes": 4647768064,
+      "resource_limit_exceeded": false,
+      "seconds": 24.523,
+      "source_sha256": "b8b7be757badc1f79f2388c5fa54ac982ec1a72acdbb85eb7a10091e4c7a68f3"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EulerQBinomial",
+      "output_sha256": "10a9208f9b2e8d6e25a5d27ac98b5766567d9d7e04343c02d3b22a16c32e288b",
+      "peak_private_bytes": 4844736512,
+      "resource_limit_exceeded": false,
+      "seconds": 25.026,
+      "source_sha256": "8c0fd255bad955dd3a9a49f4bcc55fad8ed4694e10f49efb941ffa98224e6855"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.ActualPhaseTaylor",
+      "output_sha256": "c486ca0c20e218bd9a5caa67e803a5698d527077f1ff21ce2304cdbc3dd4dbc7",
+      "peak_private_bytes": 4671082496,
+      "resource_limit_exceeded": false,
+      "seconds": 23.522,
+      "source_sha256": "23b2cce572fc266570f1d816c7610a2bbe763907c837971d09bc692da656adda"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EulerFiniteBinomial",
+      "output_sha256": "ee5969c200dff6d234fe6c4e4fcde25a87c3719852d81113a7bc47a3b43e13d1",
+      "peak_private_bytes": 4834189312,
+      "resource_limit_exceeded": false,
+      "seconds": 23.519,
+      "source_sha256": "f96da15b0895c12c314210e287c2aeb848041f23ccc15b2e0e63a418443028cf"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.ActualPhaseContinuity",
+      "output_sha256": "ae00ccaf8dca5d5432aaeeb56ba1b734f71188f4d8013eab23ebd41623a88d65",
+      "peak_private_bytes": 4652081152,
+      "resource_limit_exceeded": false,
+      "seconds": 24.522,
+      "source_sha256": "92fad2d2bdb6d67c6004286982b05f751919040f4ae29dfc620766bdfffcb5f1"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EulerFiniteTriple",
+      "output_sha256": "4066e4218159b00023e555ecfaf93b99245eafedefe97ceec53ae266a2857eb8",
+      "peak_private_bytes": 4858720256,
+      "resource_limit_exceeded": false,
+      "seconds": 25.022,
+      "source_sha256": "9b5a8a5949ef173d25c11b88bd974766aa275f7688a2653ac27b0127b1ef53da"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CombinedGaussianError",
+      "output_sha256": "de09f67fc1b840dbf4912fb438018b55d986cf86ce927a62fc80bf35be016980",
+      "peak_private_bytes": 4654231552,
+      "resource_limit_exceeded": false,
+      "seconds": 25.026,
+      "source_sha256": "483f73fa704e9a3b7778a9ac6bca0ad81406530fb05dc21a20ad417466a6aa22"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EulerPentagonalFinite",
+      "output_sha256": "8de140dbbe2b3480e32426c3b05eb4ac00f2553a3cf0796c6f86c75e9d5e2650",
+      "peak_private_bytes": 4847435776,
+      "resource_limit_exceeded": false,
+      "seconds": 25.021,
+      "source_sha256": "369bbe2420ce8314dcdbb93e6a5948557219c3155e36654d5d8fa61c7ed64bed"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CombinedGaussianIntegral",
+      "output_sha256": "53e7ffa0837aacabd3e238bd80baecc6c1e920ec25cab178974d983c0e06af3e",
+      "peak_private_bytes": 4649930752,
+      "resource_limit_exceeded": false,
+      "seconds": 23.522,
+      "source_sha256": "c568d0a4de63d7c02bd3f0bf6465f3551a8cad3618c5512d851387ebf8117da2"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EulerGaussianLimit",
+      "output_sha256": "e5015f2c5bcebfdc9e4d5b929513d88f503d9ddb6c77c180306186e219067937",
+      "peak_private_bytes": 4858347520,
+      "resource_limit_exceeded": false,
+      "seconds": 24.02,
+      "source_sha256": "4b42e608f73d28cfa49e3dcb0b7b2e7bb3c1715eb98be5b12410e7365ce06ae2"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.GaussianNormalization",
+      "output_sha256": "e6e18875be7f6db1818bb71bc407342937300cfbf172e9a7ee410ad9d6d095a8",
+      "peak_private_bytes": 4656820224,
+      "resource_limit_exceeded": false,
+      "seconds": 24.034,
+      "source_sha256": "c675c272537233479ee5cf4d9af210e16e39d329fbf40aee119b813da9409e56"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EulerPentagonalCenter",
+      "output_sha256": "9e45afc074e03fcf500e79180c7c22232c2e9c5ccabe3d90bb89feb25c29e24b",
+      "peak_private_bytes": 4854304768,
+      "resource_limit_exceeded": false,
+      "seconds": 25.026,
+      "source_sha256": "3097f67d3d726b7ae3b1439bb875d12f4e96ca40fd59b35037c1b8b2c52e8092"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.FullGaussianReplacement",
+      "output_sha256": "61af082190b3fda30d5537876c822407171045c949c73ea6ddfe096abbd96358",
+      "peak_private_bytes": 4646395904,
+      "resource_limit_exceeded": false,
+      "seconds": 24.022,
+      "source_sha256": "0a7c2660e54dbbfbbcded571e5346420378623318d644ebbcd89700ae7fb867d"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EulerPentagonalReindex",
+      "output_sha256": "a4f91196d85dbb2ddd0bec6caa2fa25d832a682fad3255c97e7c2099dfe8b1a5",
+      "peak_private_bytes": 4831432704,
+      "resource_limit_exceeded": false,
+      "seconds": 23.021,
+      "source_sha256": "854c05d1c55fba14d62daa328f46f9a14594e5a9999a2ed7dfe6d41f3f7bf9e3"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EMExponentialRemainder",
+      "output_sha256": "567dfffaed4b75188ec6aaa9b756646c2715bf2c293385500510ea33e6db1d4c",
+      "peak_private_bytes": 4661362688,
+      "resource_limit_exceeded": false,
+      "seconds": 25.021,
+      "source_sha256": "38379e324c584b32e2e249d5872491fe7025da2eedb49951ee3c29580828e951"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EulerPentagonalLimit",
+      "output_sha256": "c519d087e19dacd60547dc0257a1c992f3b8d89c0e44d9536444c01bed63f4f4",
+      "peak_private_bytes": 4841107456,
+      "resource_limit_exceeded": false,
+      "seconds": 24.026,
+      "source_sha256": "cdb564230e2e6a7d7776475086ccce4346960672a7583c6199f9d31c68ca3a13"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EMUniformBounds",
+      "output_sha256": "87e516d7761c5860d97fd7730bfa85b9a70a8cc1a0e0dae4e365db0d9be03680",
+      "peak_private_bytes": 4666564608,
+      "resource_limit_exceeded": false,
+      "seconds": 25.022,
+      "source_sha256": "da49f251a51ab790a91000e77740ca7a024b3b5985fc81e319541264c95112ba"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.IntegerQBinomial",
+      "output_sha256": "cf3381c78618cf5fa9ed34a8f32eb3008c8d41f59adb20dd333d401d0f11f02e",
+      "peak_private_bytes": 4849541120,
+      "resource_limit_exceeded": false,
+      "seconds": 24.019,
+      "source_sha256": "14b44951a45c63b77a53ef2d40b38a6dfc9a5965ce3e2efbb19b0efce7cb90bd"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EMIntegralBounds",
+      "output_sha256": "853094252d12b4caf581b837838b18434f3d39c1f25fa385d47f52665951f432",
+      "peak_private_bytes": 4636889088,
+      "resource_limit_exceeded": false,
+      "seconds": 24.025,
+      "source_sha256": "ce78681f7ab4cfbceb670dfe231b1df6bbe410738080317ddb8a66976fcd4ac6"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CiglerWeights",
+      "output_sha256": "f61a3b6afa71942fbaa811b41547ea4d01c829fc2e03d2a909c1641b2e1d9fb2",
+      "peak_private_bytes": 4850520064,
+      "resource_limit_exceeded": false,
+      "seconds": 24.024,
+      "source_sha256": "e2fedbafcc15a074d7f1a44acd1d66548ba2c78aab2ec054f66e03d14ca1d355"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.FiniteMajorArc",
+      "output_sha256": "c93703f72c98f7fed81fc49cc3adcadf82e6ca594623100b9c63c1857d95c055",
+      "peak_private_bytes": 4656381952,
+      "resource_limit_exceeded": false,
+      "seconds": 25.025,
+      "source_sha256": "53d1f1e8a7bfc08d38c3ca9427476a913f4389d39b8e850b24d8dad75f2922f9"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CiglerAdjacent",
+      "output_sha256": "84d93a855e2ed8869277cfc0a9e0dfe858a35a15ee2db27f7c50f3ec1527e764",
+      "peak_private_bytes": 4812574720,
+      "resource_limit_exceeded": false,
+      "seconds": 24.526,
+      "source_sha256": "86918017285c3dad9ea7a60c3862c9c966bd8fb40df67e9a567cee4d2f0ece8d"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CoefficientIntegral",
+      "output_sha256": "f86fb6bf7d879ed4dc3798a82f0ae0f9b7ef589de2be4cd4b15b35e42a8a243d",
+      "peak_private_bytes": 4641923072,
+      "resource_limit_exceeded": false,
+      "seconds": 24.02,
+      "source_sha256": "0d5ec74a9efe01336a4e648a7a38d21b690f3f29a0df95afb98b0ee7c2c61e65"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.PentagonalMiddle",
+      "output_sha256": "886516369ec9b5c9d00a79f9e10c3a67642f3552d4a7be610a11126d2c8c470c",
+      "peak_private_bytes": 4871249920,
+      "resource_limit_exceeded": false,
+      "seconds": 25.019,
+      "source_sha256": "e27d0b1b9c5c76c91e58f89fef221f865c8eb3729b33f95ad843ab3798542a56"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.SaddleArcConnection",
+      "output_sha256": "a32b0fab2c8246670dff3174eea460ae22dbfba8ca3d46d7404e2758643fe574",
+      "peak_private_bytes": 4684705792,
+      "resource_limit_exceeded": false,
+      "seconds": 25.529,
+      "source_sha256": "78939466dd8fa9e676763956f087738ed4fb9ad67ccbb35ebedb5fcd45708fad"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.WatsonWeights",
+      "output_sha256": "14ec3b908bc922a6f1f0bf68ce65cef7260cec0109f672ec03482b89b4b96ca8",
+      "peak_private_bytes": 4843020288,
+      "resource_limit_exceeded": false,
+      "seconds": 25.033,
+      "source_sha256": "cf4e0b05c6ff6e5ba2521302e3577de1a9d27d2201fcbd54da20b227aad96ed0"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CoefficientArcSplit",
+      "output_sha256": "1885cefd693cbdef028167c67e234f24788bf921404a99005b3fa8d8745e39a4",
+      "peak_private_bytes": 4645683200,
+      "resource_limit_exceeded": false,
+      "seconds": 26.529,
+      "source_sha256": "9e28072d7e9945569764e20ee499fdbbed511fcce0177db5a28b9f97c19a7ed0"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.WatsonThetaExponent",
+      "output_sha256": "6b318025f053ee66c30798a31229f06794edc2d5e043e9e70583e061e3bb668e",
+      "peak_private_bytes": 4876787712,
+      "resource_limit_exceeded": false,
+      "seconds": 28.03,
+      "source_sha256": "467bed016c17ade657175db6c1a13bf3d07ebf956c658a420c8903fbe9829b4f"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointCircleKernel",
+      "output_sha256": "70e033fc1cddafcef495a42458ea84f4d4f16a165e801db58a7c82d5c59bdc84",
+      "peak_private_bytes": 4923273216,
+      "resource_limit_exceeded": false,
+      "seconds": 24.522,
+      "source_sha256": "0066f04e9712d7d7208c4afcbb1e5dc4e0cd6ad59a36a9282e60404aa2af0089"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.PentagonalOuterIndex",
+      "output_sha256": "04a93e923908561eb39274afd1913c447c86db86251db473fa9939c8c81ba3bc",
+      "peak_private_bytes": 4867641344,
+      "resource_limit_exceeded": false,
+      "seconds": 25.023,
+      "source_sha256": "2c36e02dbfaacfdeabcad523c9ceded3e8f6269e81157c8b961f79cbe7cae799"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointCirclePartition",
+      "output_sha256": "f619450835653654ea584cca74bbf2ca2386727aeb1640653578153aa5665ee7",
+      "peak_private_bytes": 4895813632,
+      "resource_limit_exceeded": false,
+      "seconds": 24.521,
+      "source_sha256": "a244d36f385199ec46015c8b6bab74db927bcdf923c8bb0e8c09a643e782dfb4"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.WatsonCertificateAlgebra",
+      "output_sha256": "d611ad8efc5e3183759a21b869da3bc1fa31b53bb819980794c5a3acfc603846",
+      "peak_private_bytes": 4129210368,
+      "resource_limit_exceeded": false,
+      "seconds": 22.02,
+      "source_sha256": "46a93ceacbca8da130d25c0706492b6095a8cd907b4ae2fc89824face7308ba0"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointCircleFunctions",
+      "output_sha256": "49216cdb88482426ded55bccafe831decaf7dfd607562e6a6f8a5998fdc2c3e0",
+      "peak_private_bytes": 4922540032,
+      "resource_limit_exceeded": false,
+      "seconds": 24.022,
+      "source_sha256": "9688e1d588b2c24fb9f0fb6e8223eef027db3f72dc77be8e80779a3619b7139c"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointOuterGeometry",
+      "output_sha256": "079a01bff6881c32561a1444b33c9901ad898334e5226f3edb52ac95b7f9ff28",
+      "peak_private_bytes": 4932939776,
+      "resource_limit_exceeded": false,
+      "seconds": 25.521,
+      "source_sha256": "e31e8ec887cf6c1689af7426dd21c68cac980aa2cf3c970668964fe04143264f"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.BorweinTailConvergence",
+      "output_sha256": "7716dfeeaa6f487cf0f5e07714df2661d4a27c69d031143526ff5b4d4d421bae",
+      "peak_private_bytes": 4903165952,
+      "resource_limit_exceeded": false,
+      "seconds": 25.018,
+      "source_sha256": "daa7e3d6b9d2ff705ea47862ceefe39862b5427de922aa07a2ec7f1e4fd6db36"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointCoefficientConnection",
+      "output_sha256": "54ae212635b731e7ad89fa1216898e449b502de17bb943c8401860477897a987",
+      "peak_private_bytes": 4901572608,
+      "resource_limit_exceeded": false,
+      "seconds": 25.021,
+      "source_sha256": "a3e7f79862b884642d28b860862488748ef9d0dcf45f802665349a4914aa23ee"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EulerWeakFilter",
+      "output_sha256": "4d0dee74f811232f3609254c2a75eaf960c4cb2cdd779e009011f938337edfc0",
+      "peak_private_bytes": 4927901696,
+      "resource_limit_exceeded": false,
+      "seconds": 25.021,
+      "source_sha256": "3fe9fd81820842b7ea43c20710428ed3b8052846a070a2eada450204c4ff9078"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointSignedRadialLoss",
+      "output_sha256": "20eece92e29ecb23a2248e744c34c1aeb8e28951e963eb5872963c6e5cd80717",
+      "peak_private_bytes": 4935225344,
+      "resource_limit_exceeded": false,
+      "seconds": 26.023,
+      "source_sha256": "e4e326df9c38e6f07234c460402c2a8e1d5052fe6c805f7ceda61645994f6271"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.WatsonPochhammer",
+      "output_sha256": "9a04bab2c1571b71c7b415434562badfdfdd0014e9e66276317422c622dde07b",
+      "peak_private_bytes": 4842827776,
+      "resource_limit_exceeded": false,
+      "seconds": 24.521,
+      "source_sha256": "c7ff5c52b4036029bfe4e58c6fb90981159099e27205b4a72d9d3b29c9bde074"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointOuterNumericBudget",
+      "output_sha256": "3a6af8dddb4354f4100ea10c067f8b9fa4e066f95dc34b0aa2564e656696e538",
+      "peak_private_bytes": 4932489216,
+      "resource_limit_exceeded": false,
+      "seconds": 26.521,
+      "source_sha256": "edbea103fd237854bb390cfa5b2454e9e823ebcab1819d9132af00442d9dec56"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.WatsonStepIdentification",
+      "output_sha256": "677df1bcd68feb165520c363949d3a0ee8ee525c3dd47aa9c90fb63e472d2bde",
+      "peak_private_bytes": 4843409408,
+      "resource_limit_exceeded": false,
+      "seconds": 24.025,
+      "source_sha256": "223cd9bc13069aaaceee07fb0b438255e683deec979afeb478ec633a4af1baab"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointOuterTransfer",
+      "output_sha256": "11bb3ab6bf4fdb2cc893f7548d1ec92d76ab45aad9f870d973d260605b7a9198",
+      "peak_private_bytes": 4930162688,
+      "resource_limit_exceeded": false,
+      "seconds": 25.021,
+      "source_sha256": "7af347ffae3c896f57c96c51857aae83aef5c11136e15c0cca6991be550fc057"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.WatsonFiniteTerms",
+      "output_sha256": "e97a921d0fa84148a38b1e69a83250c67acd3b78eb3c435aa548d3d03b2b6afb",
+      "peak_private_bytes": 4875751424,
+      "resource_limit_exceeded": false,
+      "seconds": 27.525,
+      "source_sha256": "5a5dec4fae6d48129a85f3baab2860aabf4878c247a05ed6b2ca79284700958d"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.StableCoefficientIntegral",
+      "output_sha256": "cdf0b0da1381c5dea4399f19f3d590c82caa3f03791544701eef5beac79232a7",
+      "peak_private_bytes": 4910694400,
+      "resource_limit_exceeded": false,
+      "seconds": 25.02,
+      "source_sha256": "0bfe9b1136f764376163987c8a0e1f378b0464450be083f429e85d587327d57d"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointOuterIntegral",
+      "output_sha256": "cbe1a261765b1af31eff4b5a0d26b3e1106b15d2e8ca2ce03b7d269fc04a198c",
+      "peak_private_bytes": 4897955840,
+      "resource_limit_exceeded": false,
+      "seconds": 25.019,
+      "source_sha256": "ed5a2a7bef2c74addc5bbc587ba20229a7df3f14f4e88e307019356fb994aeaf"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.WatsonFiniteIdentity",
+      "output_sha256": "2f23aec992878aa40cf5713f13b3a2d40729cbdba3526b95f361f21aa0e7261a",
+      "peak_private_bytes": 4855611392,
+      "resource_limit_exceeded": false,
+      "seconds": 24.02,
+      "source_sha256": "1be5697174279be348cc23758c7b82f063fdf054331fd7055e53cf5775d066fe"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointConditionalSign",
+      "output_sha256": "c895652c1f052469cb2edf02d46cb0e6575ff187994aeac8b618e47a6dc315d9",
+      "peak_private_bytes": 4898955264,
+      "resource_limit_exceeded": false,
+      "seconds": 26.522,
+      "source_sha256": "0a0e87d8764779f513986b2e9c4a452a6a7b34473987f8f7c4c4809543190f99"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.WatsonSpecialization",
+      "output_sha256": "88c9051265485273d8029dd71243e94e7a726da327b66b7f30916959de1cb723",
+      "peak_private_bytes": 4838092800,
+      "resource_limit_exceeded": false,
+      "seconds": 23.522,
+      "source_sha256": "52dfbf1824e1df510998bbdd1cc41ab2f7acbb5befff297a6b4043a66de20f71"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointWeakIntegralZero",
+      "output_sha256": "5fc312dc7fb24696bf00c9aa05e7cf06fd8bbb0319362db56ff92aaad8b382b5",
+      "peak_private_bytes": 4916269056,
+      "resource_limit_exceeded": false,
+      "seconds": 25.029,
+      "source_sha256": "823411adf3e91e7fde0436f8653c44ec3107dd034326d9842aefa417fe3cd245"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.WatsonSpecializedTerms",
+      "output_sha256": "bd6ccb33ac81ad6981468c863a72841539ab3b8c39d2a75bb424f9ee98bb21da",
+      "peak_private_bytes": 4850094080,
+      "resource_limit_exceeded": false,
+      "seconds": 24.523,
+      "source_sha256": "c1bf837326b3b80684dd73d87c2e87b7c61022e07f2284d6c2cb0e4f86e19dc5"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CertifiedLowWeakZero",
+      "output_sha256": "b38677c8332fce674bdce32c83a50d8912947349a6081951df8895664d0c36fc",
+      "peak_private_bytes": 4908974080,
+      "resource_limit_exceeded": false,
+      "seconds": 24.019,
+      "source_sha256": "f51f1a75c59df3fe98a08b682106bae8cd39a92f95e4b5d5914ff64bad2ed6f0"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.RogersThetaExponent",
+      "output_sha256": "dc34f93e534d7c00f058c2de69d771a163cf8a35126969e3bd617493f9ec4282",
+      "peak_private_bytes": 4864536576,
+      "resource_limit_exceeded": false,
+      "seconds": 25.52,
+      "source_sha256": "d90ac45c72f054c32779b733e5ca161e96c6051a0151f242035daffa784a6285"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.StableFirstTail",
+      "output_sha256": "96cf67649351680b366e9e3be601aa9a2059155140bfcb8ed4cd0aa439372699",
+      "peak_private_bytes": 4897165312,
+      "resource_limit_exceeded": false,
+      "seconds": 24.521,
+      "source_sha256": "daea0cb04453a158fb41f02a481155932904ae5e7c65a916e0fcb1e7dbdeb2e0"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.RogersGaussianLimit",
+      "output_sha256": "d92f722866f48c8336984689c8d7a73f731e9a872accf80a1573182551be7e31",
+      "peak_private_bytes": 4853985280,
+      "resource_limit_exceeded": false,
+      "seconds": 24.02,
+      "source_sha256": "61f99004880e6ddb0843f5cdaaa97afba41936e8f37d96afaf257d74b9da8890"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.IntegerQVandermonde",
+      "output_sha256": "10d0b728a70d1ae2e75257ca8040defb7d2d927b6de1bd3c1c59dc17fbfd2623",
+      "peak_private_bytes": 4842582016,
+      "resource_limit_exceeded": false,
+      "seconds": 24.024,
+      "source_sha256": "b62015060c89dc89a0d7aa3c49e2e1d77a6c966bd157775fa3ee9e995119f4c7"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CiglerIdentity",
+      "output_sha256": "f9b2a74e51c4c8c7f185c218c9dd2dcc3dcd889bb0ad238063f75336def1a4ca",
+      "peak_private_bytes": 4842549248,
+      "resource_limit_exceeded": false,
+      "seconds": 24.02,
+      "source_sha256": "9d3ffd5f6e86f692ad225051d32fb9eb37e83356a62b1dbf2579d0652b43bff3"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.PeriodicFactorLoss",
+      "output_sha256": "d9f8061621ac6e4d4f9eeb47bc40a9457b0847806376668aa6a160fd365c903c",
+      "peak_private_bytes": 4844490752,
+      "resource_limit_exceeded": false,
+      "seconds": 24.52,
+      "source_sha256": "f80ca75e5aeabb6f81c380f7b85807de65bd250144f758a01c32c27dd7d395c2"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.BressoudConvolution",
+      "output_sha256": "8ba380c4ad3650018a4a126f8c3d45a218dfca896f565bab6440754816ecfdc2",
+      "peak_private_bytes": 4847570944,
+      "resource_limit_exceeded": false,
+      "seconds": 24.52,
+      "source_sha256": "d8b06e212ab6093c78a2ca68992638bea09c4b529e01d9f6c5cd9e3897a129e0"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.PeriodicEulerProduct",
+      "output_sha256": "ddbed83e9b51dfb79564a4c4c7b411a643843bcd32e834f4304b19f9573440d9",
+      "peak_private_bytes": 4834287616,
+      "resource_limit_exceeded": false,
+      "seconds": 24.019,
+      "source_sha256": "a558102734067088c658433884eb0701fcf7b0f4a00aa2c76f9853a4570383a5"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.BressoudIdentity",
+      "output_sha256": "2ba66e9912e33216e7d519db86f699d28122c0a5a2825e0cb18fbe53ab711319",
+      "peak_private_bytes": 4855005184,
+      "resource_limit_exceeded": false,
+      "seconds": 24.52,
+      "source_sha256": "848e8924c022101ef4debc0960bc45448235516b17d39ef1881c3912bc7fdead"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.Kernel",
+      "output_sha256": "02e6fa252b3c3cd81887cf74ee25fa644a5d87826bb41f73b7d386a7f11efb7c",
+      "peak_private_bytes": 4115423232,
+      "resource_limit_exceeded": false,
+      "seconds": 21.52,
+      "source_sha256": "f306cd8f6fbb1a7c0f1a47ccd1027477274787f5ada1d40a1d0eae9e1033f60a"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.RogersSeriesLimit",
+      "output_sha256": "2d70e3394f0df5b0a396ea5ea96da90065ca92edd16529fd44c154ad19c6f7c5",
+      "peak_private_bytes": 4850397184,
+      "resource_limit_exceeded": false,
+      "seconds": 24.518,
+      "source_sha256": "8e9baecfc863448b3f5f43232ae56ecd6ec518fc9904b930cf5dee3970c8a0eb"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.NonnegativeKernel",
+      "output_sha256": "dc26d1cacab594ef740ec0dc6ea94407b8ac666d11231466c55568cefc32b093",
+      "peak_private_bytes": 4143144960,
+      "resource_limit_exceeded": false,
+      "seconds": 23.021,
+      "source_sha256": "dff6b6ebcf2c83c98bb95b8df2fcc235e8636b731e090256c77cf5a88773bc24"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.RogersProductFinite",
+      "output_sha256": "4cd568316f52f8eb423b9ccd0b946c861e46a226c86d69bcd20f4eaf226d02f3",
+      "peak_private_bytes": 4868685824,
+      "resource_limit_exceeded": false,
+      "seconds": 26.525,
+      "source_sha256": "7bd3964ec23b0ae413c065bb04a13fe82c022ef58b065e847efcbe07d36de0c9"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.Hypergeometric",
+      "output_sha256": "9e77d117ddf6c266881d73524a3691144e8776a59ab54c3673c16fef1325b26a",
+      "peak_private_bytes": 4182384640,
+      "resource_limit_exceeded": false,
+      "seconds": 25.023,
+      "source_sha256": "da481309e6da4d520579951421e439c019a8b80d3baf6a85f3d7904c22140094"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.RogersProductLimit",
+      "output_sha256": "689d1bbac74c7ad234f38389ea65bf0a22d54f519778a9131672b0d50afaa781",
+      "peak_private_bytes": 4846030848,
+      "resource_limit_exceeded": false,
+      "seconds": 24.526,
+      "source_sha256": "260aca8bff283870db9d177044a071a66a8c99d5c161d7906775d48526dd44d6"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.FormalSeriesValue",
+      "output_sha256": "cd8f116e796641b37fcb9536015c434742d3b2a1f04c396a3b4b84f436711343",
+      "peak_private_bytes": 4469731328,
+      "resource_limit_exceeded": false,
+      "seconds": 23.025,
+      "source_sha256": "f13b0e6e3d308f7258423f91aae3801a58db8bc5a8e71dd29b4e429a16671f5f"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.WatsonPochhammerLimit",
+      "output_sha256": "2ba7660644c89292e4093ed7b6d078a13a1df4e4020dc03f20326b8792b8ce9d",
+      "peak_private_bytes": 4839698432,
+      "resource_limit_exceeded": false,
+      "seconds": 23.022,
+      "source_sha256": "0b81d3527ff66804778f03bf8d993c460ea3b30c602069595f77810cfee86fbb"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.RogersProducts",
+      "output_sha256": "e6afb3ef2097d17179468d70bc708295ed08f3ade88bb56f4422e8c0b6e7b966",
+      "peak_private_bytes": 4890226688,
+      "resource_limit_exceeded": false,
+      "seconds": 24.52,
+      "source_sha256": "23510cceedb5c5cb377174185c83fe7087ad6f9d7039f93f67505be2ba97207a"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.WatsonSumLimit",
+      "output_sha256": "15fc0efc82a084333218f9d412540e2eba23dc4f8fe7f5dd514c59c2e34766ce",
+      "peak_private_bytes": 4856176640,
+      "resource_limit_exceeded": false,
+      "seconds": 24.02,
+      "source_sha256": "42f267af3650e2c30153d595733469d9d46c3f6a4b7aa20e0b0f38853aa01452"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.RogersRamanujan",
+      "output_sha256": "baf232410031290e80139d6e09a73c6dbe1fa31fe6ab90c087368fd026633e1a",
+      "peak_private_bytes": 4177375232,
+      "resource_limit_exceeded": false,
+      "seconds": 20.519,
+      "source_sha256": "fbf6a19481c7eebcb9d39b3ca6c15ce1482865e0dd2e3dac8021d4c5612a3bcc"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.WatsonQuintupleProduct",
+      "output_sha256": "ff7604a27597477c167718259081cc8e67af1f9731722cee3665cd085cfb3a57",
+      "peak_private_bytes": 4886061056,
+      "resource_limit_exceeded": false,
+      "seconds": 23.521,
+      "source_sha256": "19800dd81c7ef6e11b469e7cab7a6e375325b806ca9e013d8810c5240b38a845"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.HyperSeriesValue",
+      "output_sha256": "de6751e5827a03a3baedeae1c91e2c1abd1b4633f8363cb8df81a8ea3f5cf77d",
+      "peak_private_bytes": 4855508992,
+      "resource_limit_exceeded": false,
+      "seconds": 22.521,
+      "source_sha256": "dcee15924052a48d9cb03eab25fbbc3e8bf063cfbe65fd9121a7801077188124"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.PentagonalOuterSum",
+      "output_sha256": "beccedec545e88a980b7bcd5a25fdbcff5af33ca9a245db3aa73719f336aad06",
+      "peak_private_bytes": 4882857984,
+      "resource_limit_exceeded": false,
+      "seconds": 23.023,
+      "source_sha256": "fdaacefb689be9b07b0ea46df6e6f08a23d22d858a9423c2b17785cb9e4dcfda"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.RogersFormalProducts",
+      "output_sha256": "44911e5bdfc0dcca3bf11676d7e47db1ac00c23be9294431a7ae47dbd2b55701",
+      "peak_private_bytes": 4875005952,
+      "resource_limit_exceeded": false,
+      "seconds": 23.523,
+      "source_sha256": "bd7bf95efe1d03bd418ae4dbf0efe251869759279762032f74dbae9f6acb6d3d"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.Dissection",
+      "output_sha256": "bd8ace72b0415551fb6fea18136548913d692b6f9382d09fc5f843f8fde547eb",
+      "peak_private_bytes": 4141813760,
+      "resource_limit_exceeded": false,
+      "seconds": 21.521,
+      "source_sha256": "e597b795a8838e0293fad424811ad304882e7ecedca31d5cefa5c5ceac814b8d"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.FormalCoefficientIntegral",
+      "output_sha256": "babf6a6841d0248f868243958c5e8e787ee6b7e56476ca3b5b25c9adde0661a0",
+      "peak_private_bytes": 4920070144,
+      "resource_limit_exceeded": false,
+      "seconds": 24.524,
+      "source_sha256": "b03c99a185950bff4a9cd80ec2186a6e795235d02e71d9121ee2571f28e0cb06"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.FormalSeriesOperations",
+      "output_sha256": "e7ea60ae7c7693af0fa71ca2c0005b0c5ded8e95d21c5366461d9da6ce7162c5",
+      "peak_private_bytes": 4465258496,
+      "resource_limit_exceeded": false,
+      "seconds": 21.518,
+      "source_sha256": "a84659b8afed93b2dfdf083da92f363271b68f7537dd1b3dba184c5173cc2655"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.StableFilterCoefficient",
+      "output_sha256": "5a961e1370391b0e2cd6ccabfb2f0e74d7f590aa1f4c4da254ed1945656f1529",
+      "peak_private_bytes": 4916424704,
+      "resource_limit_exceeded": false,
+      "seconds": 24.021,
+      "source_sha256": "95fc17c45a0049f0189406afa3f75ab1b2e2e5e68a174dfcc890594f4b8465a6"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.FifthRootMiddle",
+      "output_sha256": "57111852e094b56031d97035746972647430a5127cfb78a1d942ae0c645b0c0b",
+      "peak_private_bytes": 4940275712,
+      "resource_limit_exceeded": false,
+      "seconds": 24.024,
+      "source_sha256": "abad4653b7d5cf0cc09976a939ad7e980cee92c52592239152b3e67e3a398dd5"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.RealCombinedPhase",
+      "output_sha256": "70405e518f16f23dbb3c53e971ac3fb880ca96595fc0a52cd026683f0f1080bc",
+      "peak_private_bytes": 4655357952,
+      "resource_limit_exceeded": false,
+      "seconds": 24.524,
+      "source_sha256": "9f1385a9d271f7008076ebf555cc36b3497f95c922d57ffdc838d47a91afec70"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.FifthRootOuter",
+      "output_sha256": "45fa8dbcb469adf3f8b710ccca3f324edc76bd708740ec7f22dbdfeb31d06c77",
+      "peak_private_bytes": 4915789824,
+      "resource_limit_exceeded": false,
+      "seconds": 24.522,
+      "source_sha256": "68687a04af668c2a2b6c77eb65b67f36198fb344f326a6b782b63df8a375b92d"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.StableMiddleCoefficient",
+      "output_sha256": "da598788f98a98ff8ec00b0e105943263867720dbe655750ccbe8621f6ca42d8",
+      "peak_private_bytes": 4932747264,
+      "resource_limit_exceeded": false,
+      "seconds": 24.021,
+      "source_sha256": "a3beaa1edf82b045dbbbd0bcbbe7fe2545d40bdbe287feb87719132ba3bc2b03"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.StableOuterCoefficient",
+      "output_sha256": "a71fc69beb390982cb62d7cc97f30201c7305cb4806b7b3122e93c04f21e94cb",
+      "peak_private_bytes": 4913836032,
+      "resource_limit_exceeded": false,
+      "seconds": 23.022,
+      "source_sha256": "8f5401825530da3c96f9985c800e83779bb99b0d4d6bb796f4035fd9a6c66aa5"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CertifiedLowMiddle",
+      "output_sha256": "631916f7c7f509d415f804ae75e173e6a0bc1bd5be747388d031a152d47a2383",
+      "peak_private_bytes": 4925853696,
+      "resource_limit_exceeded": false,
+      "seconds": 24.022,
+      "source_sha256": "70cd1f2b5ff6976c36e6595ef674af62062411a8c80e6cff5b9aac0c84792f02"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CertifiedFiveDissection",
+      "output_sha256": "f6be5961796e68e8e293e0c49608eb1e0bac4cdff0a9cde0570de403bc99a84b",
+      "peak_private_bytes": 4921225216,
+      "resource_limit_exceeded": false,
+      "seconds": 24.029,
+      "source_sha256": "fc80790abe678a4a2524edc88b77f9978c8bbe828033bbdd4417921e06ec689f"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.LogPhaseCoordinates",
+      "output_sha256": "f260bf2b3954b2f8bb73c4a159eedf82e311c459b9bd991d30ab12ea57d52f70",
+      "peak_private_bytes": 4656046080,
+      "resource_limit_exceeded": false,
+      "seconds": 24.025,
+      "source_sha256": "6ab649849b93bfe6b62b9ca4f43f24cfcff3fb8fdec8e05ac5ecb86848d5b3ee"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.FirstTailBlock",
+      "output_sha256": "c1e05ef1bb80c451395ca64273b748839035949d7851496177862ebb78113c02",
+      "peak_private_bytes": 4969308160,
+      "resource_limit_exceeded": false,
+      "seconds": 24.022,
+      "source_sha256": "76a2e473fc49855114d4b6f9d172585adebd81a30ef1b04151fff1e4b0b7f505"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CertifiedLowOuter",
+      "output_sha256": "79719a09ea86343b513d83a6ebbbf799dd4d1a76fbd58a5aa7d10df7f9291e1b",
+      "peak_private_bytes": 4914659328,
+      "resource_limit_exceeded": false,
+      "seconds": 24.023,
+      "source_sha256": "3bcd1befe0f8f328b746050eae4d4c617f3a713fb5e9010886b72a1c305704a4"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.FirstTailKernel",
+      "output_sha256": "048ad653e681ba8210bf1d594bde057c2b37a38abb288d028689d4005e306102",
+      "peak_private_bytes": 4915560448,
+      "resource_limit_exceeded": false,
+      "seconds": 23.52,
+      "source_sha256": "ae758e40af5a61163a8b46ad97171b1b6c340da6cfb70c95410a3bec17b0a147"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.ArctangentPhase",
+      "output_sha256": "9a0ca861ad6c6ec2b34b419a2ba4599dff6ef88e7ac0b47ecafdb9e69be07816",
+      "peak_private_bytes": 4664184832,
+      "resource_limit_exceeded": false,
+      "seconds": 26.522,
+      "source_sha256": "81d5f4b0c9e72ee9e92c66cc9f360513bd2b943105fd13abd48031ae70b5eadc"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CertifiedFirstTail",
+      "output_sha256": "4991c2513ec479dd4929dfd58f3c6435e1261254ce83147d70cf1a246cdb98b1",
+      "peak_private_bytes": 4915699712,
+      "resource_limit_exceeded": false,
+      "seconds": 24.021,
+      "source_sha256": "33d5b74a62da38a0afa8aa67b4e4e77b069d61d37577e47ff1b3b38117eec054"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.ExplicitPhaseProfile",
+      "output_sha256": "9e3675a046a6543d42ce76251e33a22d34e7db4536d1c4ab7f8ba02c1ccbcef6",
+      "peak_private_bytes": 4671770624,
+      "resource_limit_exceeded": false,
+      "seconds": 25.023,
+      "source_sha256": "a91fdae110c59abcfefd6c1e1de1702eaa4b0a5224dc8637b4bca464f08613fe"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.SmoothedPhase",
+      "output_sha256": "ab0f5a86cc8b730bd0e3441bff88157d36312dfce85ce19e8c4d335029d7f2c1",
+      "peak_private_bytes": 4482125824,
+      "resource_limit_exceeded": false,
+      "seconds": 23.524,
+      "source_sha256": "d6624fc5df3c07cbaf3533e55c278a29a5bd57bc2686dfa4bc473cecc8956eca"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.SmoothedCertificate",
+      "output_sha256": "1e693f78292c7c24761fbcedb92ddc96ac6b1d28a351a15a5ce9dffb940340a0",
+      "peak_private_bytes": 4488916992,
+      "resource_limit_exceeded": false,
+      "seconds": 25.024,
+      "source_sha256": "f741850012169c4d50d1e90f75093c189de9e75e607ff6afe9b6709578903642"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.PhaseAngleRange",
+      "output_sha256": "de887779cd2cb790e5b9666298ea7d39f36d531bca15fbd72e39d698add6d437",
+      "peak_private_bytes": 4708048896,
+      "resource_limit_exceeded": false,
+      "seconds": 27.037,
+      "source_sha256": "c49195ae69e123e950c684564bffe4009a4b2ebf1fc569f984a77ca4221516e0"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.ExpCertificate",
+      "output_sha256": "db8d4b2fc6805499cf99f1bd35d3103e5ee410f9dcedb591b09f4bc6692d0ffa",
+      "peak_private_bytes": 4492165120,
+      "resource_limit_exceeded": false,
+      "seconds": 25.02,
+      "source_sha256": "f6108925a031579f1a9778354aa1d6a3ef8da6933c8a523643e55aac372ff22f"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CombinedPhaseSign",
+      "output_sha256": "c30d7f92bb627ca0c53179b04f7604022d18f2355c29cbe5bc99cf135f2e8581",
+      "peak_private_bytes": 4688220160,
+      "resource_limit_exceeded": false,
+      "seconds": 31.526,
+      "source_sha256": "477660e4507f9fbd8bc408a9c9880599019567cee5fd93a8341c0949b3e6dfb0"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.RoundedExponentialGrid",
+      "output_sha256": "e389163eab398b9b1d9d1aa73428f1d2cbb3685eba5b08cb49650c2fdd9032f4",
+      "peak_private_bytes": 4467290112,
+      "resource_limit_exceeded": false,
+      "seconds": 22.522,
+      "source_sha256": "0176a96b709532151daeee336b0e7628f8f04f520c20cf2a6545d65d279fc0e6"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CertifiedInitialRange",
+      "output_sha256": "53b4b1a091e15c9bb3204cededf7b4c80d60f35026fb778ecaed665f0c721693",
+      "peak_private_bytes": 4935032832,
+      "resource_limit_exceeded": false,
+      "seconds": 24.022,
+      "source_sha256": "e0a5914e3641af8d4b072a6164cd9a115d46b99b1ae20375e613a8bcf9c54442"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.MomentExponentData",
+      "output_sha256": "96acc3da9ec983fb63ce059ce48fd9be5f248a25beb54ed849244f5a5ce7974a",
+      "peak_private_bytes": 4631531520,
+      "resource_limit_exceeded": false,
+      "seconds": 25.024,
+      "source_sha256": "50889432acb9df6c60383a3e41186dfe81057ac6130950e6c9a94f559cd9f964"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.MomentExponentChainCertificate",
+      "output_sha256": "82c6aa2d2bf6fb1db148b1e87c8ac12d3dc578956fcc302f476a7e51a0757b76",
+      "peak_private_bytes": 4568793088,
+      "resource_limit_exceeded": false,
+      "seconds": 21.026,
+      "source_sha256": "be43b162e6b21b7a7f82d7abdc0dc9e057cae204d3e4a2fb7ab1829ae7725c0f"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.MomentExponentChunk00",
+      "output_sha256": "e98e10acdc08e05495a8b090dbb9d4fa64ddfe551accfa561cfd74f47f14b531",
+      "peak_private_bytes": 4465135616,
+      "resource_limit_exceeded": false,
+      "seconds": 22.022,
+      "source_sha256": "600ecf426529ebed487d6ff04579c33252d8f8c38e53d0d8d57ac6a5397a54cc"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.MomentExponentChunk01",
+      "output_sha256": "64360d8a211cb0e31693acbacc85236d7c91ded2e55cc4995c540ee36fcaf5e0",
+      "peak_private_bytes": 4452831232,
+      "resource_limit_exceeded": false,
+      "seconds": 22.524,
+      "source_sha256": "2f8827472b9514b3f2682c557a8bb2861d96fbfe41f01cbdd9f5782b407418ad"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.MomentExponentChunk02",
+      "output_sha256": "e8e24e8f5672095535cc0f342ffbfb24d0facc8502c652d2a63139ae85a33300",
+      "peak_private_bytes": 4453126144,
+      "resource_limit_exceeded": false,
+      "seconds": 22.521,
+      "source_sha256": "5bd941cea77fc54c2d840e6c141d127927ea504c827f59f0086025594e03415b"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.MomentExponentChunk03",
+      "output_sha256": "a55a34b07d2bb3825d388fb468963e11f0950968188b31da529d76356ecce002",
+      "peak_private_bytes": 4453105664,
+      "resource_limit_exceeded": false,
+      "seconds": 22.023,
+      "source_sha256": "da0fc060ac490d592551b3b62ca6553a1755a21f89198d32bf2be502ecfcf105"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.MomentExponentChunk04",
+      "output_sha256": "26c605fe80279d29515208da6731e6058de8cff4c8bebc0d869b0a3b5fd7e1fe",
+      "peak_private_bytes": 4452720640,
+      "resource_limit_exceeded": false,
+      "seconds": 22.023,
+      "source_sha256": "8fe8f7457d38c96daf9cc04b20d96d0568ba55e5d35c17bb46c25a95763ea6f3"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.MomentExponentChunk05",
+      "output_sha256": "d0c9d7ac6ded39f58e9602fc9338c39cc5feb55fc895a094fab176b246c15494",
+      "peak_private_bytes": 4465799168,
+      "resource_limit_exceeded": false,
+      "seconds": 22.019,
+      "source_sha256": "c860a31edb27390829b158dc24f7dc0db7d5758a3f9ec21652f65d7c21df95a8"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.MomentExponentChunk07",
+      "output_sha256": "731667a76696b6a6a8dbbd19fa5f4a93e02aeaba436355f1819867b35800153b",
+      "peak_private_bytes": 4453105664,
+      "resource_limit_exceeded": false,
+      "seconds": 23.023,
+      "source_sha256": "90e0c42f8ed8554a522e1c100e28db6312c1b70f3b5cc4bb1e3e864f1e4eee5f"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.MomentExponentChunk06",
+      "output_sha256": "e24c4206a1578266bcf3cb2b19060b2a4b535ecbcc6dc88285ffd50f6f2f8294",
+      "peak_private_bytes": 4453130240,
+      "resource_limit_exceeded": false,
+      "seconds": 23.524,
+      "source_sha256": "7fd53c733245b5e71309d5e5d686f54e13496745d1667b39be0531b331875a15"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CertifiedMomentExponent",
+      "output_sha256": "0a927eee6e43b68c57af54566229bfda56e9e7c9608689d96d28f16ba5232403",
+      "peak_private_bytes": 4473229312,
+      "resource_limit_exceeded": false,
+      "seconds": 23.029,
+      "source_sha256": "3ad95a29ec40749336ff8cfd9af3d237ae114e6cb2a712b28fa186243d69b62b"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.RadialVarianceLower",
+      "output_sha256": "c908f06e9347e354b821f7eeeff9af07ae5fd93c483264a1b91edf8ec902fd1d",
+      "peak_private_bytes": 4515602432,
+      "resource_limit_exceeded": false,
+      "seconds": 25.531,
+      "source_sha256": "91abbda8dd1d90e4dc488d141fb4f2b5c49ea0a1d00bb23a1c68d37d715bdc03"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.ResonantQuadrature",
+      "output_sha256": "707fa47e13ee19c43b35b8856722ddf2a8d98b45fd8e1a7623d2f1a7c4115727",
+      "peak_private_bytes": 4635586560,
+      "resource_limit_exceeded": false,
+      "seconds": 24.024,
+      "source_sha256": "5f17306f86afa0c6acd6e964d4852a83aa0eede1f07dd9d0812c168afae6ff48"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.VarianceInterval",
+      "output_sha256": "7543128010132e5b61cac019d4163b83c535309878c4ed107dcbc287f3c5942b",
+      "peak_private_bytes": 4460388352,
+      "resource_limit_exceeded": false,
+      "seconds": 23.523,
+      "source_sha256": "a2acd5918567f0f7c19d3c83d0a1b0da848e23e1fc27d6c4cc915701e28f76fb"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.ResidueMultiplicity",
+      "output_sha256": "7290590be1d45b3662e60fe978361a355dda48b4478b94f7209db103ad58ff09",
+      "peak_private_bytes": 4602617856,
+      "resource_limit_exceeded": false,
+      "seconds": 25.034,
+      "source_sha256": "d2627f9d27119578221c2d30417ef342ee46ab9af9ae1135d0040527cfadc45a"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.MomentIntegralTable",
+      "output_sha256": "e77a85ac9e1252775f8e9ab021c8e2606ae0f75fe0c73b82ea4b964a02205a09",
+      "peak_private_bytes": 4643688448,
+      "resource_limit_exceeded": false,
+      "seconds": 24.032,
+      "source_sha256": "e80d581bd61494b18a82043f1352860a39d56aa53955b565060f41e14a6b4096"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.ZeroPoleBudget",
+      "output_sha256": "b0d8489e3cb2cc24d54abdae04859686998afe63f6c5cb0e71704c23aa2b354f",
+      "peak_private_bytes": 4589961216,
+      "resource_limit_exceeded": false,
+      "seconds": 23.027,
+      "source_sha256": "b6b1eec06df8b9e05a5afa6f955538565db360747430d27c0acdb0594e24f620"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CertifiedMomentTable",
+      "output_sha256": "8e98d361d9057c68382e05eec079dd59b015ae978bc0677dd9e5a88e7bb549b4",
+      "peak_private_bytes": 4680912896,
+      "resource_limit_exceeded": false,
+      "seconds": 24.529,
+      "source_sha256": "4245ae4117761b5d78069a45c46da470d5d91452a7a70696c2533b2c01d89842"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.RoundedMomentArithmetic",
+      "output_sha256": "e456a196c8f891c1684496b24d510b3aa444703896a8ab1ea1812154df2e8d33",
+      "peak_private_bytes": 4658573312,
+      "resource_limit_exceeded": false,
+      "seconds": 24.525,
+      "source_sha256": "5db92db16d64a68dad361ddc9c7836f13151988e1bc22ac096004998fe449a5e"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.ResonantErrorBudget",
+      "output_sha256": "8423da7085d0212ab1f2bacb2337487b1fd4f621b347f2878f12bd4563b9cd9c",
+      "peak_private_bytes": 4655050752,
+      "resource_limit_exceeded": false,
+      "seconds": 25.526,
+      "source_sha256": "3f34c54711df828ce924680b9a57373d1bf809f1644671894ace3b1590dff144"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.ComputedMomentTable",
+      "output_sha256": "e61a306cdca7f88c6f8c80b1c6a25549fa1f946c9ebeeeb08fa1a2e5a47f01fc",
+      "peak_private_bytes": 4643848192,
+      "resource_limit_exceeded": false,
+      "seconds": 24.531,
+      "source_sha256": "ed717aa99fa8807629bfa4d10c9c07f8159526bb10cf481b26b8e745fc64a701"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.SmoothedLogSeries",
+      "output_sha256": "d8e410ea1f4db01218bbb173b2eddb6f00fef54395f010e27b66ad9027c219ea",
+      "peak_private_bytes": 4648914944,
+      "resource_limit_exceeded": false,
+      "seconds": 24.032,
+      "source_sha256": "db0a15aa5687c284a0c832f5c552140a2fc26b1248d68a80e51a8d46c9757436"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.BulkCandidateData",
+      "output_sha256": "54ac86ffebe2d2a3a79625df58d6aa18e8b99ab9e5c2161bc74279c5fd4379ee",
+      "peak_private_bytes": 4623474688,
+      "resource_limit_exceeded": false,
+      "seconds": 23.026,
+      "source_sha256": "73dc4ec1178a1b4436feef4dbe487f38d07ccdffbd8d78dcd272c4ef89932224"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.SmoothedResonantMain",
+      "output_sha256": "4dd96879a65d0918e484e99f42aa6e8570809b222df40b3f458ed6a6e68f8bf4",
+      "peak_private_bytes": 4673269760,
+      "resource_limit_exceeded": false,
+      "seconds": 24.527,
+      "source_sha256": "a45fa035b15c15de28dde8eef3bd19dde58ef2e6ff2acb83b90ff59f44df90cc"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.BulkMomentChunk00",
+      "output_sha256": "e17500a91c5140761303e2c72944a960e423980359f199438e880f496747b440",
+      "peak_private_bytes": 4903182336,
+      "resource_limit_exceeded": false,
+      "seconds": 22.522,
+      "source_sha256": "383387dd07fd43f35ff1c190c20152c05baa390fcdbee72b2f07ff4a180b6836"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.BulkMomentChunk01",
+      "output_sha256": "764f2148bb5f51bbd80f417b97926bccf4e087a2f6ea8086f629a825a314a89d",
+      "peak_private_bytes": 4938915840,
+      "resource_limit_exceeded": false,
+      "seconds": 23.027,
+      "source_sha256": "b014c4695ef7c37926e34b6bac5afbfb48623f547a72d856b544971f20699326"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.BulkMomentChunk02",
+      "output_sha256": "c93711b4f7710c169c717f403b44b8fd973ff2d9826a5fc932935301480a6efc",
+      "peak_private_bytes": 5037371392,
+      "resource_limit_exceeded": false,
+      "seconds": 24.533,
+      "source_sha256": "978a6dab6aaea40a180cb3c53ff930607f22631a3c086bf5977f91f121267f26"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.BulkMomentChunk03",
+      "output_sha256": "ec44b79835725a16052790a32c979c5cfe75956646aa728ff01a8054468e8a82",
+      "peak_private_bytes": 5104721920,
+      "resource_limit_exceeded": false,
+      "seconds": 26.026,
+      "source_sha256": "617bc9bc0f84a2b3f5048e13384d8c86aa19c428ee56357da3a8b44281001590"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.BulkMomentChunk04",
+      "output_sha256": "6ead33982a011fe82adf584dca0e8591677bef46960acc1ac845ca5b30bd46eb",
+      "peak_private_bytes": 5174886400,
+      "resource_limit_exceeded": false,
+      "seconds": 27.022,
+      "source_sha256": "419920c3b59f621d8d168d63feed333f96568a34dfdda1f15ecd64dae46eff3d"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.BulkMomentChunk05",
+      "output_sha256": "06271e29dce4db44aa1f4dc079551f49aa2c92933aff0b3a071f2b62c6e8f01d",
+      "peak_private_bytes": 5242482688,
+      "resource_limit_exceeded": false,
+      "seconds": 29.035,
+      "source_sha256": "3c7359bc4bd50abfb685aa3f1020f98d711934f523f7b885700d830188545cdb"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.BulkMomentChunk06",
+      "output_sha256": "a84ccef90bb39f43f9b4266f68814c9e2c58d6e616b442da508f9a5c143d9a8f",
+      "peak_private_bytes": 5309161472,
+      "resource_limit_exceeded": false,
+      "seconds": 29.535,
+      "source_sha256": "e77381478e0d0eaee595acf95e8aecd83945b7c1ced59a11d6f4f6e02fb1bd94"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.BulkMomentChunk07",
+      "output_sha256": "436bf4117b5cadaf805128f3c257a4607608cb5c8e7aac184ebe6ac7bdde9dd7",
+      "peak_private_bytes": 5406019584,
+      "resource_limit_exceeded": false,
+      "seconds": 31.03,
+      "source_sha256": "082577c01f0ad450952604dae4644219450f578d3b6197bb2b5c7c31cf557f23"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.BulkMomentChunk08",
+      "output_sha256": "02630115eece83d56090ea42d1aeddc34682ef08bfa54ad5341800fbddf058ba",
+      "peak_private_bytes": 5440565248,
+      "resource_limit_exceeded": false,
+      "seconds": 32.048,
+      "source_sha256": "283677443242e357575f9e1bff466dfd65c46e82175caf0e02c64b6315917150"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.BulkMomentChunk09",
+      "output_sha256": "2ce6016af9d9b04df1bd90538ec4d89dac01045494db5ee71695526881aa6d61",
+      "peak_private_bytes": 5465444352,
+      "resource_limit_exceeded": false,
+      "seconds": 33.538,
+      "source_sha256": "11b8129cdd068540e3bcdfad19af0e957e4fcfa8b6fb418009739fccf8050509"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.BulkMomentChunk10",
+      "output_sha256": "2e26cc54f0506f4e76a2691f2fa2e9c68ad7a330d8f583a7d1e53b7713db9e19",
+      "peak_private_bytes": 5572235264,
+      "resource_limit_exceeded": false,
+      "seconds": 34.536,
+      "source_sha256": "3aab476c5aba284ed9f6e7f285a65fabfc82df1da75c5166a47cf19f276e0fd5"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.BulkMomentChunk11",
+      "output_sha256": "3b6995cbe5fbf777bed7ab7d32d6af6f2e1737503f0d5073019a49bb091a8663",
+      "peak_private_bytes": 5709524992,
+      "resource_limit_exceeded": false,
+      "seconds": 36.541,
+      "source_sha256": "5f9a60cb00003ad111bce97353e2068f4718c47e80830fccd12bfd9ab7c2a3a9"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.BulkMomentChunk12",
+      "output_sha256": "9e223b95edd0254a4568214143f8fd0f2f616758174ce9015076f8ceef5ae113",
+      "peak_private_bytes": 5710135296,
+      "resource_limit_exceeded": false,
+      "seconds": 37.033,
+      "source_sha256": "5ef3f555b2633e8f917aa991872d4785e5ce21480a3cb3a41055c69ec004cbac"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.BulkMomentChunk13",
+      "output_sha256": "d7653d5f9c915dc21745b3a8f3aa5a6207a373ecfaa7742a10c9b75e5204213e",
+      "peak_private_bytes": 5841289216,
+      "resource_limit_exceeded": false,
+      "seconds": 39.538,
+      "source_sha256": "e30e9c6e55a86d4d8b6ec28905d9da4ef61154dd02958f4981ba693b09be79cd"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.BulkMomentChunk14",
+      "output_sha256": "e377e2efe565938bfe4f96206d945e1827bb36e9a0610069b2654bf5fbd17750",
+      "peak_private_bytes": 5877301248,
+      "resource_limit_exceeded": false,
+      "seconds": 39.539,
+      "source_sha256": "7d436e17e41fc0c503a90ab69c17f2c8a4cce94bab3fb6ec024daf0970d07006"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.BulkMomentChunk15",
+      "output_sha256": "68bac53405222fac787816c954a5800436d8980416a1bc9fb842556848aeee33",
+      "peak_private_bytes": 5941682176,
+      "resource_limit_exceeded": false,
+      "seconds": 42.043,
+      "source_sha256": "906e409dae936d6079444d278d68e70a1e224a2d20740c8465b7313bfbd810ab"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.BulkMomentChunk16",
+      "output_sha256": "1f9c1535928398e7312f02448633983a8345c482890102abe083164b74c52ad1",
+      "peak_private_bytes": 6008717312,
+      "resource_limit_exceeded": false,
+      "seconds": 45.041,
+      "source_sha256": "f9f40c84910a4ee913991770cc04e2931a262719bcf75e147209ed5ff45d11e8"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.BulkMomentChunk17",
+      "output_sha256": "78af986d08f35ae4de68fc4d50d71183e9ec9a173e1d9c6cd2cea19a84e14895",
+      "peak_private_bytes": 6140645376,
+      "resource_limit_exceeded": false,
+      "seconds": 44.045,
+      "source_sha256": "8ed9fc1c03e57354d57d2fd36df0844e49fd3a6023bbeee62e4e00c84dc04006"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.BulkMomentChunk18",
+      "output_sha256": "42575dca623e41b21982577cd4d4d627b177874e247e889a74706bd621d66053",
+      "peak_private_bytes": 6178893824,
+      "resource_limit_exceeded": false,
+      "seconds": 46.543,
+      "source_sha256": "6f2c70f5c55171f3734182632b8a741e0457f68718d143fb6bfbd38b27b9c921"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.BulkMomentChunk19",
+      "output_sha256": "5ae9f267cc0d279c91e73c7c5685c7786dbe370dbd66a43a500709ce97bf924c",
+      "peak_private_bytes": 6209855488,
+      "resource_limit_exceeded": false,
+      "seconds": 50.05,
+      "source_sha256": "56c6ec1301dbeb900a2ae9c464f4ac8f023f10dcb8a773208e2c4faccd465fe0"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.BulkMomentChunk20",
+      "output_sha256": "6eef67d4777ee453f6ac7638af8dab52582089c64e632592cfe0543584ba3fd4",
+      "peak_private_bytes": 6276087808,
+      "resource_limit_exceeded": false,
+      "seconds": 51.548,
+      "source_sha256": "866e3ec7f74d7ee084bd5a899a2010ed77c51d7bc3c3bbe83d516ae8ef314ed1"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.BulkMomentChunk21",
+      "output_sha256": "954d3b47d476a05d9c8f6c712837988ce2cabdf1a331ebba4443f6e60be89564",
+      "peak_private_bytes": 6340096000,
+      "resource_limit_exceeded": false,
+      "seconds": 52.557,
+      "source_sha256": "13f6370f53e14ff4d5d4d4ad9290f9e0faf94a2fa29dc1f61e012c20e64708c7"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.BulkMomentChunk22",
+      "output_sha256": "4d63c744ba5a94f660ca1175081a3594dae3e29e57b886ade12c53e3fa846595",
+      "peak_private_bytes": 6440177664,
+      "resource_limit_exceeded": false,
+      "seconds": 55.573,
+      "source_sha256": "59d92e006683195b05cffe31e86254244bde0937d852eeb97beeb36ab1c47963"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.BulkMomentChunk23",
+      "output_sha256": "693baf2bbb524afea199300a513be453fa8c04e1fb01164fce5a1b1fe78b633f",
+      "peak_private_bytes": 6472957952,
+      "resource_limit_exceeded": false,
+      "seconds": 85.576,
+      "source_sha256": "592ba61e8f8d754033e1ba648b6eabb8c7c1f145532d8be36b7722b4bf7754c4"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.BulkMomentChunk24",
+      "output_sha256": "da3cf317a5b5274bd965acacbd63f90414cb2f946ae9f562c02215a280124c2a",
+      "peak_private_bytes": 6509056000,
+      "resource_limit_exceeded": false,
+      "seconds": 162.146,
+      "source_sha256": "378ff065beedfa0cf7fbd0d3bce03a88d211ab92ea4b4c05c70b0f6b375eb4f8"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.BulkMomentChunk25",
+      "output_sha256": "8d6fb5456afdc7aaf70843f1e86d7ce84ab1a4f1d84b00abc744ae1321880076",
+      "peak_private_bytes": 6611361792,
+      "resource_limit_exceeded": false,
+      "seconds": 55.061,
+      "source_sha256": "2c6ecfadb1e102f876993fa6fa8db836d0a9b639c7358f0d585a52797bc8c433"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.BulkMomentChunk26",
+      "output_sha256": "6400743661c49dcbb31441622e56fe752446f7241412888ca1a1c4c573fe750d",
+      "peak_private_bytes": 6675693568,
+      "resource_limit_exceeded": false,
+      "seconds": 55.546,
+      "source_sha256": "699318bc61a43332ff431eba12cb5084996f297e3fad41b7411f5262dbca1eef"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.BulkMomentChunk27",
+      "output_sha256": "9d830ee59af89a65b63abb767a188022b7da5c318396e17e4ef2e0d38344033f",
+      "peak_private_bytes": 6775963648,
+      "resource_limit_exceeded": false,
+      "seconds": 57.066,
+      "source_sha256": "d93d958a9e43a4a899745f059af7cba122803b63863583ec3630bf7593950854"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.BulkMomentChunk28",
+      "output_sha256": "f3ba45fe339cecf70c162e966bb777ea7489332bc9b3bb0f5faefafd5fd23c39",
+      "peak_private_bytes": 6848966656,
+      "resource_limit_exceeded": false,
+      "seconds": 58.552,
+      "source_sha256": "104132e4cad9cf62ac87781998de7b01751d27594d86c5a4bbc19de574707704"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.BulkMomentChunk29",
+      "output_sha256": "08e94f3044ded53283a8d5cffb7a2a332e33dd1a48b8f4de31997964c83e1769",
+      "peak_private_bytes": 6878654464,
+      "resource_limit_exceeded": false,
+      "seconds": 59.554,
+      "source_sha256": "c2226ee3e43de0903ca0ae996df2352ebf86a4f63461439724a161c360aa02bc"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.BulkMomentChunk30",
+      "output_sha256": "9485f2d4124604c6372f23beb87c5a71d9654a22ec99c2876a30189d5a9fda24",
+      "peak_private_bytes": 7013826560,
+      "resource_limit_exceeded": false,
+      "seconds": 65.572,
+      "source_sha256": "1da3d141c4f05a2d58a5d35fd91cf8806f53825eb9ea2c1e1e2d7a6a840cfc9a"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.BulkMomentChunk31",
+      "output_sha256": "ab8e3d64f7cb16666b7532e6011697a12e13f862a8845319de5061bf7036206d",
+      "peak_private_bytes": 7077552128,
+      "resource_limit_exceeded": false,
+      "seconds": 68.061,
+      "source_sha256": "a4f87e95048fea209555dcaaff5f79041f30140fb51a955213af2eb6d07f30d6"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CertifiedBulkMoments",
+      "output_sha256": "c888c1f564a66bbe3f0e61481d41a68d45280c24e5ea78e378a11fba3c169467",
+      "peak_private_bytes": 4661710848,
+      "resource_limit_exceeded": false,
+      "seconds": 27.036,
+      "source_sha256": "13cf56e812eaae7b5de220b9e67b7e67e5b0fa29c43c7d5610319b23117ba9b6"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.ResonantArgumentBounds",
+      "output_sha256": "5655b86503f1065ca2418e5f9d9f43217449822323badf4e7c64922d8af3c9d9",
+      "peak_private_bytes": 4632309760,
+      "resource_limit_exceeded": false,
+      "seconds": 26.537,
+      "source_sha256": "bc33efd8fb3c45fad89068bf3f2936707d909fa21b4dc7d7487b7c64ebdaca22"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.ShiftedResidues",
+      "output_sha256": "6e9785f587f5a0b8c737d2a61ca6be10581e777a42be022ced0b0aa0be1bd37b",
+      "peak_private_bytes": 4634689536,
+      "resource_limit_exceeded": false,
+      "seconds": 33.041,
+      "source_sha256": "2c42660c3c1eef68c0e24403737ec8a034329a982f792a3ca03a0a7eeff4e3ec"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CompactCuspCover",
+      "output_sha256": "26a2c37e39aaa4f2976f1734ba37c860b427d4037661175ee6679b80cf7cc92b",
+      "peak_private_bytes": 4457996288,
+      "resource_limit_exceeded": false,
+      "seconds": 24.528,
+      "source_sha256": "19e3e92a043b5c81dd546d4a79be7ae0cc5be58ec3867613ada1336b4da233ac"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.NonFiveSquareSum",
+      "output_sha256": "19a366eddf3d73c32a37c68a1a9f661d6b42bb087630193e594c23ad0e9e4224",
+      "peak_private_bytes": 4586987520,
+      "resource_limit_exceeded": false,
+      "seconds": 23.52,
+      "source_sha256": "bd73797c307b5ae4c8a5e422fa2eb84f6895d59021edf1506b4ebe0189baf6bf"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.SecondPeano",
+      "output_sha256": "46fa849b45440c8905355d4f93edb05bc8eb84e0da977eaf22fb6819ea749d6e",
+      "peak_private_bytes": 4440260608,
+      "resource_limit_exceeded": false,
+      "seconds": 25.023,
+      "source_sha256": "307992060286a38b730431ea1e0f13965593ed436330eecc6c163f4af2042200"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.ShiftedPoleBudget",
+      "output_sha256": "300fc95e1a8f519f1091f82082aa335ed8b726a551adc47c9b4e99a0df7415c0",
+      "peak_private_bytes": 4604153856,
+      "resource_limit_exceeded": false,
+      "seconds": 25.526,
+      "source_sha256": "2330fdc963f41cd429bdd5d0bdef7c03c6954f278d4944aa8d0aa127d0e29bb8"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.SecondEulerMaclaurin",
+      "output_sha256": "d383f31984660b9b20924e361b21573677633f1dbfaeac636e63c348e226b321",
+      "peak_private_bytes": 4393807872,
+      "resource_limit_exceeded": false,
+      "seconds": 26.024,
+      "source_sha256": "e504f0d193b30cf75d0616903dc2f2f1af24fb9f1f93376fe3aabdf76274d479"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.LargeDenominatorVariation",
+      "output_sha256": "139761aac31dff5184a9afc25c3f6a4b53f18ad601fb464424be0e864f41cb50",
+      "peak_private_bytes": 4594069504,
+      "resource_limit_exceeded": false,
+      "seconds": 25.022,
+      "source_sha256": "f18be70d0a5747eb2dd24b4d77a4dcb4861080707f9d7da9e3273c237311f1af"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.LargeBoxEulerMaclaurin",
+      "output_sha256": "96546783f71fc8dc56e3b1e5cf6cc0489061ae83342b925f5fe1f359100e3794",
+      "peak_private_bytes": 4638760960,
+      "resource_limit_exceeded": false,
+      "seconds": 26.033,
+      "source_sha256": "d55752ea19fec14e7f565f0f4c8f291214595cb8625577c4b670b3fa03809214"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.ResidueBlockCount",
+      "output_sha256": "6e987b6382a22de6dee8067d6dfbf55f689e44ee93b4345ba32dd02fb6ecb97e",
+      "peak_private_bytes": 4597981184,
+      "resource_limit_exceeded": false,
+      "seconds": 24.525,
+      "source_sha256": "d841da41fa055b08b41807ed48d2154e0182a7f232383295aad2eb83286f4d92"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.LargeBoxMainIntegral",
+      "output_sha256": "5bf8587debb3a1812f26bc794b0ea3deebfe134a6980f237123e5bb2df81c423",
+      "peak_private_bytes": 4615970816,
+      "resource_limit_exceeded": false,
+      "seconds": 21.019,
+      "source_sha256": "36939e3a882415939dbdc665ffe76cec3430f68cbaa0f5e7161f9bf55790f8cf"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.ShiftedBlockCount",
+      "output_sha256": "3af4b94832cc587d21b8e3f0671eb058e373da77cde24c571c8ab342b7c12908",
+      "peak_private_bytes": 4619710464,
+      "resource_limit_exceeded": false,
+      "seconds": 23.018,
+      "source_sha256": "48654f19e876c6e80366f3ff1e1e410d54f710fc6e8168d627a765d603cfd224"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.LargeBoxAmplitude",
+      "output_sha256": "cab0704b2488b3eb40c82f9098db7717e767aabcabbe5adde06d776b7ed5e69f",
+      "peak_private_bytes": 4633452544,
+      "resource_limit_exceeded": false,
+      "seconds": 22.02,
+      "source_sha256": "16354538120f729050fe8b14c2f583ba46f6780996f04a11ec1bd4fc82282de0"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.GeneralDenominatorVariation",
+      "output_sha256": "9650e7cdaaf625c653b1726179a1557b6d65cce7e21511c02cb7ae29775fd430",
+      "peak_private_bytes": 4618117120,
+      "resource_limit_exceeded": false,
+      "seconds": 21.516,
+      "source_sha256": "a53cb9a0e59c3cd81b8421e7377d973e9dc76f8b9410c8c7279d7746d2aded86"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.MiddlePhaseDecay",
+      "output_sha256": "4bb4ea3ced6cbe90f6d867520aab626a1e9185d41ec07e892ae3dc2ac96895e5",
+      "peak_private_bytes": 4479418368,
+      "resource_limit_exceeded": false,
+      "seconds": 22.519,
+      "source_sha256": "0c5ad7562b8c8bfb07bd2a96b99a58e95fb5be97916c1093d80ba2e57d31e60c"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.FiveDivisibleResidues",
+      "output_sha256": "7c830c00667227237fee2572afa6f38e73fa460f4b603b3f3c98819ac20326d3",
+      "peak_private_bytes": 4641411072,
+      "resource_limit_exceeded": false,
+      "seconds": 24.019,
+      "source_sha256": "01cd839e82cbcd42bc41217c1fcc6bb25eb65b219312522a5e50220795cef97f"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.FiveDivisibleVariation",
+      "output_sha256": "7d6fffcd1e67b631df4b32e66220015c47ffc663098522d65d08a28253de7633",
+      "peak_private_bytes": 4611153920,
+      "resource_limit_exceeded": false,
+      "seconds": 21.518,
+      "source_sha256": "626b0f5e293fe0a056f97e7483bde57f300f1195702aa90d4b94d14ae4127b41"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.MiddlePhaseCertificate",
+      "output_sha256": "1c824e479d23677ce5b4c0e25aa2d8ed6edbf28b2cc2a72a085fe86e5b227688",
+      "peak_private_bytes": 4705701888,
+      "resource_limit_exceeded": false,
+      "seconds": 28.536,
+      "source_sha256": "b464c5591fcb482e10ee6278d010713331f2028287b6e6c2c8685085449df1c9"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.FiveDivisibleProfile",
+      "output_sha256": "fab401edd12d55920b8babd7a137db31415ea4751bc911c1837d34de01e9f7f9",
+      "peak_private_bytes": 4591833088,
+      "resource_limit_exceeded": false,
+      "seconds": 21.519,
+      "source_sha256": "89d747a7285ad4a2e3cf82a1f83000067dbfcb5dda3f6d6e646663d4abdec4b1"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.MiddlePhaseIntegral",
+      "output_sha256": "b31dcc52f39615706375197315a9cbf38dcc3d552d45f405d296ec6e764ff7b7",
+      "peak_private_bytes": 4657278976,
+      "resource_limit_exceeded": false,
+      "seconds": 22.519,
+      "source_sha256": "fd88646f70fe7105813ae02bec18d4659b4a9524db00943a4d7063e1ad8f28a0"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.FiniteBlockLocalization",
+      "output_sha256": "d298d8aea1a6c3589620bb73dea6bd5648fba89d5e324627a203e6022104d8e3",
+      "peak_private_bytes": 4610056192,
+      "resource_limit_exceeded": false,
+      "seconds": 22.52,
+      "source_sha256": "6b793b8ae08cd5746f6e691353b6e783bf6b2bbd4bc4617f2c5010285f7d1b80"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.MiddlePolynomialBounds",
+      "output_sha256": "590b0c5156a7debe09f7ddca44038fa1ff450ce9ff93f4c6d2837393160ec386",
+      "peak_private_bytes": 4652855296,
+      "resource_limit_exceeded": false,
+      "seconds": 22.52,
+      "source_sha256": "1078c159deac6ccdf4a1f3fcc6e7fe28c22253bac239bc82eee783e09149c934"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.ResonantGeometricSum",
+      "output_sha256": "2ac1e60b90bae3c156829a4ba9b4f68787fb19f7cb741600866191cc5cb01635",
+      "peak_private_bytes": 4644319232,
+      "resource_limit_exceeded": false,
+      "seconds": 21.519,
+      "source_sha256": "7448e2b04c28f14e8fcb52d2f1d7067b83988bf927ee58501c94093324432374"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.MiddlePolynomialIntegral",
+      "output_sha256": "eb78e71fde2a5204cfb80c14ba051eba46c8d32832e1f00748c76f9b9b279e7d",
+      "peak_private_bytes": 4668952576,
+      "resource_limit_exceeded": false,
+      "seconds": 22.02,
+      "source_sha256": "a31b1c884e672437d2becf0f8dd83d19e3e186a54ceef160b5a81959ab86d395"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.ResonantFourierSplit",
+      "output_sha256": "5a5a9d62b365e62ff13233f3a08e977aaadd259310748f43e7a38bdfd4502605",
+      "peak_private_bytes": 4646027264,
+      "resource_limit_exceeded": false,
+      "seconds": 20.017,
+      "source_sha256": "bc8e6888a21a68f2d6ce55b5045896dd946ec9f4d32261b126d63336cfcd55e2"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.GapIntegralBounds",
+      "output_sha256": "76c35ea9e1f5d5a2788d0091030f84f256bfb1dd9cad25bbe95eedabd4cc74a4",
+      "peak_private_bytes": 4651499520,
+      "resource_limit_exceeded": false,
+      "seconds": 22.017,
+      "source_sha256": "16c6b99427269c05e4fc8f77639cc373314cbdd15a50ed503c6dee386c276881"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.SmoothedLogTail",
+      "output_sha256": "05fd97ca898982bd414e54325b53a9bd7675deb7df425addfe59671d45b6cc8f",
+      "peak_private_bytes": 4639645696,
+      "resource_limit_exceeded": false,
+      "seconds": 20.517,
+      "source_sha256": "45fdfd49674802538bdcca707826875e00ef8ff87b58001b430d3ecb5add7bc7"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.ResonantPolynomialBound",
+      "output_sha256": "cf75611b4fbff823d3f9d69829a49c9b02dfd9c9b5365aef0cee2c17b7edf8d2",
+      "peak_private_bytes": 4632334336,
+      "resource_limit_exceeded": false,
+      "seconds": 20.517,
+      "source_sha256": "b39ed375e3f49d1050d1eeedf962a75b66c9817efe508ebf0787149b0c7858ae"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.ResonantMainTail",
+      "output_sha256": "5be70544ca15841fae89195e2db25cb220c84eec421f54d9a371f13240c8f10f",
+      "peak_private_bytes": 4675919872,
+      "resource_limit_exceeded": false,
+      "seconds": 20.017,
+      "source_sha256": "be91332225dc1e12b68932ec48366bd48a553f3452f83b70895b3a2162c0dfc8"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.WideGapIntegral",
+      "output_sha256": "abe1ea760e6959ba1b143675114e2b2a1724ed03e652fc3a087a031e009d8a1d",
+      "peak_private_bytes": 4660006912,
+      "resource_limit_exceeded": false,
+      "seconds": 21.516,
+      "source_sha256": "71979fd37595e07cb5e2e54a473975b3238159861379bfb515070a6fd4529dd1"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.FiniteGapBounds",
+      "output_sha256": "da0ab8ab3417eb7f9d8c34804cc8fbbff69c6001feabd432a3b4b3a5d36d5663",
+      "peak_private_bytes": 4462366720,
+      "resource_limit_exceeded": false,
+      "seconds": 20.018,
+      "source_sha256": "6a5d2fa1c4088446f21695eaa02a37cd94a75bd76c3897b5e14aa05c4448de8c"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.OuterArcGeometry",
+      "output_sha256": "b0ba67148b4bb825a516a26579b7cce3dc240039e10264742533dd863f84b8e9",
+      "peak_private_bytes": 4700999680,
+      "resource_limit_exceeded": false,
+      "seconds": 28.523,
+      "source_sha256": "2378bf06a494c71c78d0ade14ba84d0c210a5ca1ed8b2e6f930471fa5f4e6d07"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.FiniteBlockDenominators",
+      "output_sha256": "318dc894f19e984773674bc6ba95119bbbff921fd054c17686167bfe69923797",
+      "peak_private_bytes": 4626931712,
+      "resource_limit_exceeded": false,
+      "seconds": 20.518,
+      "source_sha256": "815c5ea0ab2f00cd837d98af649dd89174bef27db15312af845ce1e0e5683605"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.RadialCorrectionEnvelope",
+      "output_sha256": "4baa44a63293502bdf4bab9a14a799f6dd2746d2e8b68e2ded78b204a35bbc46",
+      "peak_private_bytes": 4613324800,
+      "resource_limit_exceeded": false,
+      "seconds": 20.018,
+      "source_sha256": "3bf5e55344fd1b6b35dff3d87408b725c7b772ea717ec39e9bdefe0b8ef27d44"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.DilogarithmUpper",
+      "output_sha256": "5f62f03bb5e95a59e7315596a1a206b3c50fa532734cfe7a886363b739bde09c",
+      "peak_private_bytes": 4605865984,
+      "resource_limit_exceeded": false,
+      "seconds": 20.018,
+      "source_sha256": "56b33a851eb94ec882b849a5c906aa34daea57a5138e793e89937e26d02c7b1a"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.RoundedExponentData",
+      "output_sha256": "240e20c74e0ad70de424bbac5866a58fd407437704f42c249f133d3d083be594",
+      "peak_private_bytes": 9997201408,
+      "resource_limit_exceeded": false,
+      "seconds": 87.547,
+      "source_sha256": "aacf6dae514015a9393dbb141171e19f2b5429337d62e19e7dd4f972d4f2dbb7"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CoprimeFrequencyResidues",
+      "output_sha256": "574368fae33e46d43d788c7cc82dd86bf75c6083540b9e79332b3ac3ca1295b9",
+      "peak_private_bytes": 4579921920,
+      "resource_limit_exceeded": false,
+      "seconds": 21.019,
+      "source_sha256": "624eac820d82f5a9c7514a0236bf8e6baefdfc74fcefb2db9455971ef8be4c39"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.RoundedExponent",
+      "output_sha256": "83b7131792b875630752f6946709647b8992539bc7fac2a9b32d88a8073bd53a",
+      "peak_private_bytes": 4461568000,
+      "resource_limit_exceeded": false,
+      "seconds": 19.517,
+      "source_sha256": "f0dd23716fbd4281d77ff496deb50f03bbe9adc84b62e702f7d838fe55ca4938"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.RadialSmoothingIncrement",
+      "output_sha256": "37c29c420f6bf089665f100feb0d5ed0b8277777c998be8bdfbd9f7a06c66038",
+      "peak_private_bytes": 4666310656,
+      "resource_limit_exceeded": false,
+      "seconds": 20.517,
+      "source_sha256": "dfe83e3ee267b08a4307face858c8e6712d4d4f04d52ecd55925310bf6c90ad6"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.RoundedWeightData",
+      "output_sha256": "6005ea0bfcca37ccec3e44bc7fb7256f5d9874ef643147b508d1750046d6e72d",
+      "peak_private_bytes": 4508884992,
+      "resource_limit_exceeded": false,
+      "seconds": 20.517,
+      "source_sha256": "8e0e44b79e68a88b3fecbb55f494bfb77bc42005c2b0c26724463cadfdb3dd03"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.IntegratedSmoothingIncrement",
+      "output_sha256": "8b0f5cca97bcad2fde1b2677412d6634c01b06f3b0214cc5973ba7353f045b97",
+      "peak_private_bytes": 4658057216,
+      "resource_limit_exceeded": false,
+      "seconds": 20.016,
+      "source_sha256": "b84f6dbc10ee63471e05e0481be478ffd752f037993b319f2e4676e23079dd6e"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.RoundedWeight",
+      "output_sha256": "18ad7e663b8bcc3d7672c79bac43933f68ce966151b42b09fc15c544cce323d6",
+      "peak_private_bytes": 4497022976,
+      "resource_limit_exceeded": false,
+      "seconds": 20.02,
+      "source_sha256": "be6eaf02030ef10975c73d9b879080519dd46fde2fabd90202c4172fc8de737e"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.RoundedWeightChunk00",
+      "output_sha256": "0af47e84f9fff5d44b68054c178fd630be8b6c5c97203ed5f6fad1c2cfc8925e",
+      "peak_private_bytes": 4619026432,
+      "resource_limit_exceeded": false,
+      "seconds": 20.021,
+      "source_sha256": "43325b2050973a41b2119174d2d5674aaf96fc2aba63f65d354188df02578781"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.RoundedWeightChunk01",
+      "output_sha256": "03f255cd589f182cebb0f8632d49a51037888af4c5954a2ca4122cac7e3ac490",
+      "peak_private_bytes": 4698578944,
+      "resource_limit_exceeded": false,
+      "seconds": 21.019,
+      "source_sha256": "f723e15956827f196122e23d6d84fc04f9b6f7da4bb867c659703c866b3b7393"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.RoundedWeightChunk02",
+      "output_sha256": "c87708a63fdf890e6bb4d7af2d12ccad67730def3173b08b4ff696f770df73ec",
+      "peak_private_bytes": 4829310976,
+      "resource_limit_exceeded": false,
+      "seconds": 22.017,
+      "source_sha256": "e5a7e2ae24260e978998d694dbbebcf972e0d541947a390239a8453a73dbab9f"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.RoundedWeightChunk03",
+      "output_sha256": "5ce21976f58b5896f1036fc65e9606ef9767995c4deea108eec545e945cd0b41",
+      "peak_private_bytes": 4943982592,
+      "resource_limit_exceeded": false,
+      "seconds": 23.519,
+      "source_sha256": "34b2eeefdcdf38ef336276b72b67f4553514b1c6c66ca1dc28c971f8ebcea0a3"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.RoundedWeightChunk04",
+      "output_sha256": "5d90e86d796b3be5aa5a68104de5524695176b8ffc0ae069c7a4bd2c339d56a3",
+      "peak_private_bytes": 5057347584,
+      "resource_limit_exceeded": false,
+      "seconds": 25.019,
+      "source_sha256": "312a2ed91dddc564e876ff38ed3e49013debe33caa4d853029367a5821ad4625"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.RoundedWeightChunk05",
+      "output_sha256": "9699070d39212da28f6be116ddd10b796ff779e8df4995954d5ca1343b637e1a",
+      "peak_private_bytes": 5188268032,
+      "resource_limit_exceeded": false,
+      "seconds": 26.022,
+      "source_sha256": "379f803023539f9fdf571c1b6fffef53cbb40c08c356228f9f284afcd9554bc5"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.RoundedWeightChunk06",
+      "output_sha256": "a280c9f7d7d862fc245b730fc29205f943b6ee871cdca6522b8d827922ab9fe3",
+      "peak_private_bytes": 5287137280,
+      "resource_limit_exceeded": false,
+      "seconds": 27.52,
+      "source_sha256": "33da5c32238d609017b97eb83a908f84baf948304263d606a784fda76317e5dd"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.RoundedWeightChunk07",
+      "output_sha256": "0990e3eab9f09d9d4f0ea112234929850b011ae7d8816efe326a26a09bc6b5d4",
+      "peak_private_bytes": 5414445056,
+      "resource_limit_exceeded": false,
+      "seconds": 28.521,
+      "source_sha256": "69cc2ada9c5fd4121a3a7b620ecffa58887577f8b9d61fcc544825b32eb3d03c"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.RoundedWeightChunk08",
+      "output_sha256": "2a43b86a1394a3b126e271ebce644dcd5bfd41d691d173d200bd90fba7a18f70",
+      "peak_private_bytes": 5513367552,
+      "resource_limit_exceeded": false,
+      "seconds": 29.52,
+      "source_sha256": "aa06dfcf39daf0a346fd82ca219466f904e6f57cdf1d32219caff91392f0d607"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.RoundedWeightChunk09",
+      "output_sha256": "4c583c860052f721a344bc32c3fd0b2852569743d268668eea0f9c04a03bb343",
+      "peak_private_bytes": 5594574848,
+      "resource_limit_exceeded": false,
+      "seconds": 31.021,
+      "source_sha256": "4f3babbfb660463f89ef0fb427d0b93b6712ccef6d34ffa8ddcfba5b13c3b54a"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.RoundedWeightChunk10",
+      "output_sha256": "c8cd351c14709d4374f27256ab37aa77b9509cd8d856f38808c11a200c07888e",
+      "peak_private_bytes": 5740093440,
+      "resource_limit_exceeded": false,
+      "seconds": 32.026,
+      "source_sha256": "48cde34905d8fd58bcdff60d6b93ef081060f0bb0d58c4834d7be89660977d35"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.RoundedWeightChunk11",
+      "output_sha256": "29a65ac2b4ebc28fbb7667d149b90588b6d35d9eb16fde31ad1b20c7549bc92a",
+      "peak_private_bytes": 5871648768,
+      "resource_limit_exceeded": false,
+      "seconds": 33.022,
+      "source_sha256": "318ddc3164a02e5df7523aa3bf5176921b222d94e9d3fa19a0c2d738f2dfd3d2"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.RoundedWeightChunk12",
+      "output_sha256": "f31348a2e04e8bbd501079a0224148b0261dc426a726d0ecaa154d5d92cde34a",
+      "peak_private_bytes": 5984419840,
+      "resource_limit_exceeded": false,
+      "seconds": 34.524,
+      "source_sha256": "59edcda4df8a527a2fc7508394ff2c7f72ec73065af442a735ac01e3228aeece"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.RoundedWeightChunk13",
+      "output_sha256": "e8db84da1439ecf36ca64cfb0800910aa455b2385cab676f8e1946e3327b29c0",
+      "peak_private_bytes": 6115155968,
+      "resource_limit_exceeded": false,
+      "seconds": 36.029,
+      "source_sha256": "471cd2f2dd0fcaf083afc463a4d237c370f5b12a31bfc10574a79727c5bb3b73"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.RoundedWeightChunk14",
+      "output_sha256": "9fa8fc697b372ea1e647a4c44ffbb93621db08040c215ddc7bd0eb02d3e78b84",
+      "peak_private_bytes": 6180827136,
+      "resource_limit_exceeded": false,
+      "seconds": 37.023,
+      "source_sha256": "6f1009ab7127ae79466962e4947a1058a318d2f097588a9fdefa2496a8a9bb47"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.DilogarithmTail",
+      "output_sha256": "b11d1e656dc4146fd219593074aead73c653b4dcf30e23457e25a993e116825b",
+      "peak_private_bytes": 4601843712,
+      "resource_limit_exceeded": false,
+      "seconds": 20.015,
+      "source_sha256": "b58ce0b4017fb6700259ff162bfcc04063560c3451539f346b3ed35a62821c7a"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.RoundedWeightChunk15",
+      "output_sha256": "ce883183f01090877b9b73667b12ed00596181b1ec42024fc0aec1ea7fd378a1",
+      "peak_private_bytes": 6324932608,
+      "resource_limit_exceeded": false,
+      "seconds": 38.524,
+      "source_sha256": "77f0515f5d6c308f026d9c8cca279a5caf64a13ab14ca9a85c09249a22961875"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.RoundedWeightChecks",
+      "output_sha256": "d7f5b71606033eeb79677fe321ed9c0ed87a1efa5411cbdbb2a7bcd43ae0db0c",
+      "peak_private_bytes": 4478046208,
+      "resource_limit_exceeded": false,
+      "seconds": 20.017,
+      "source_sha256": "501f4f7edde91e2b1f62b9d04b68116a2275630cbc4d01f1281a387d88bbdfae"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.ShiftedDilogarithm",
+      "output_sha256": "d3698c5575e6ce39e1426b49d1f56f56717224b6b658978dcd26e792c833ddc7",
+      "peak_private_bytes": 4668448768,
+      "resource_limit_exceeded": false,
+      "seconds": 21.519,
+      "source_sha256": "d771889c09d3f3e256ab125244737494f90698e10e9537011d45bffc60ceeb15"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.PeriodicSineLower",
+      "output_sha256": "6e52f75ba92bf9092e51d8d678f2ffca2695def6f8fa1b2f8c53c17449f72213",
+      "peak_private_bytes": 3332853760,
+      "resource_limit_exceeded": false,
+      "seconds": 16.516,
+      "source_sha256": "88231cd21233110188f06af3767ffa2deb5129e6cc6bc33c46e40e2dd24f5f07"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CheckedWeights",
+      "output_sha256": "2981c9209bc851b0e735dc103ca531b7b03af0539ef4d0ba6c6519142cca8803",
+      "peak_private_bytes": 4568616960,
+      "resource_limit_exceeded": false,
+      "seconds": 21.018,
+      "source_sha256": "866b3a8f3a1ee04a9dc06be395547ae557e47e317b95c028fd14f06156b72593"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.OuterMassEnvelope",
+      "output_sha256": "f834ff6d9a98ea0892fdd21490cff9f5e67ff5c9c16806a697631f2e70d837ed",
+      "peak_private_bytes": 4679471104,
+      "resource_limit_exceeded": false,
+      "seconds": 21.518,
+      "source_sha256": "ac87d96472a208abc9164e6894e44aa290a034dbaf89a0699fb9d619520f5b0d"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.GapSumData",
+      "output_sha256": "14da2de10e1cd641aa8774db15cc92fc2d7ecc938bf3cfc725cb95582e417aa3",
+      "peak_private_bytes": 4454764544,
+      "resource_limit_exceeded": false,
+      "seconds": 18.518,
+      "source_sha256": "3b2a794f8dae42bc062d27d583c05ad06fe7e1de9ebbcdc87937a22e6fcced60"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.IntervalLocalization",
+      "output_sha256": "62307d13d20741b1c35bd2dc29cd3b3c5370be032b8e618123c367f8bf79f8bb",
+      "peak_private_bytes": 4590858240,
+      "resource_limit_exceeded": false,
+      "seconds": 21.018,
+      "source_sha256": "27a65372b3c4ab57222ec1fae045bb16c0c9d0241559e45757b5172456016c77"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.GapSumBridge",
+      "output_sha256": "33c42bed59c25f1825053f4be9510ecb0fdfe6c470bb668f077ed89676862274",
+      "peak_private_bytes": 4490940416,
+      "resource_limit_exceeded": false,
+      "seconds": 20.517,
+      "source_sha256": "ee7a1169d2d498ce0d836863976af63e6c836e8df36633154a89c987073b1930"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.GapSumChunk00",
+      "output_sha256": "7a34be6de8c62b24b4a54d9a390e3da7dd87d90e8c37a3b54fa48a9cdf6a06c1",
+      "peak_private_bytes": 4548726784,
+      "resource_limit_exceeded": false,
+      "seconds": 20.521,
+      "source_sha256": "c32277cdd071e58e9007097383a8e19c41f52018c373511cc0d666a183d3079b"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.GapSumChunk01",
+      "output_sha256": "f5dffcfe988340d8b1fe55cc1891dbd710e620c8622aa4fd7301b72254083416",
+      "peak_private_bytes": 4639748096,
+      "resource_limit_exceeded": false,
+      "seconds": 21.527,
+      "source_sha256": "13c77f0491b1bc2894c76074a11a52b7d24c46d7b75975ed3038de1143234bf5"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.GapSumChunk02",
+      "output_sha256": "4330338e7d2b325eb1a19a1182f98628d9aa03f8333bfb7f1d5b107d4f1e3bf5",
+      "peak_private_bytes": 4736323584,
+      "resource_limit_exceeded": false,
+      "seconds": 23.017,
+      "source_sha256": "fd45f426dc54b430df5bf6ae4242a930f6e2d854945069c64e46268107161dbd"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.GapSumChunk03",
+      "output_sha256": "094134d7d5c5176f6cf0ee9ffdc7e28fd4e13d2a3cd2c61169a6169f5f125a79",
+      "peak_private_bytes": 4844961792,
+      "resource_limit_exceeded": false,
+      "seconds": 24.019,
+      "source_sha256": "ec1ddca95174ee3f53189c778d78ff57f8097550338bf08e2e050659173b6ccc"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.GapSumChunk04",
+      "output_sha256": "ede450dd59821c414f331a669952c487228dda8d80bcfa2f5fecbc858f472344",
+      "peak_private_bytes": 4957978624,
+      "resource_limit_exceeded": false,
+      "seconds": 24.519,
+      "source_sha256": "a7be2565e7bc7642e99f2462600a0ef387e8f8089bd48ce99a255d1f3617c438"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.GapSumChunk05",
+      "output_sha256": "9af40ee9896f1ee4e2620666050194b812f39d4fe154e250bb6b27b62363f685",
+      "peak_private_bytes": 5068386304,
+      "resource_limit_exceeded": false,
+      "seconds": 25.519,
+      "source_sha256": "14a4ef2a12402f4ff93af78e7ea53a5886119a38aeffe4404820d6c57f96a5b6"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.GapSumChunk06",
+      "output_sha256": "005f69e2304c447f590240a1f0505f836cddbd8ffe510db4e1a3575e9fc2d9de",
+      "peak_private_bytes": 5143961600,
+      "resource_limit_exceeded": false,
+      "seconds": 26.521,
+      "source_sha256": "fdc2272adf1ecc98cf445e0ea2b9b200e5d020e35401aa684549e10e2ef03d10"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.GapSumChunk07",
+      "output_sha256": "c574725a290b70b51584d6dfb2a5f52bd7a8078fcc7637cc8f22124985ffdc2e",
+      "peak_private_bytes": 5224177664,
+      "resource_limit_exceeded": false,
+      "seconds": 27.521,
+      "source_sha256": "a61f95bfb9922df4d16ada39739838736fb88262864251687ddadc9eba07260c"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.GapSumChunk08",
+      "output_sha256": "921d99f37b823ea10918cee66d542ba01fe39bbab6d471c5d5fdb39ee81d725f",
+      "peak_private_bytes": 5335433216,
+      "resource_limit_exceeded": false,
+      "seconds": 28.523,
+      "source_sha256": "848fdf1c88d6fa57dfe61f8f6d74ffe5bea1507d17adb822e96b56936daad6a4"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.GapSumChunk09",
+      "output_sha256": "eb3536ae6a3326650ca62a7ebcec220bebb28031bc5bff4c33cc12dfe60ff378",
+      "peak_private_bytes": 5445328896,
+      "resource_limit_exceeded": false,
+      "seconds": 29.52,
+      "source_sha256": "eb0930593058e8982abfd28b811c09aa798c1cd7b0a999473a3196680e4104f4"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.GapSumChunk10",
+      "output_sha256": "e2c929024966a5546bf22e99c1d537d8008d534713fd751c57fe096952a530cc",
+      "peak_private_bytes": 5490790400,
+      "resource_limit_exceeded": false,
+      "seconds": 30.526,
+      "source_sha256": "d1f18b064fce28f0cc07276d22ca9773ce3912142354e52bc8b02ee64a0d7974"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.GapSumChunk11",
+      "output_sha256": "97dc2dc75323f8b62e8916159106a9d65f1c3c4e757566475aa4f7cff12b28cf",
+      "peak_private_bytes": 5586698240,
+      "resource_limit_exceeded": false,
+      "seconds": 31.027,
+      "source_sha256": "8e4fbdf763bceb6d45171114e0ce851474bf9be56aaf6c0151599caa3506d24c"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.GapSumChunk12",
+      "output_sha256": "0a3babb44456bbbef3e8787958ecdfca74eee7e14d90d0f6f10115e67be8d558",
+      "peak_private_bytes": 5646622720,
+      "resource_limit_exceeded": false,
+      "seconds": 31.025,
+      "source_sha256": "d24ef3d53f0506cb013e1a3a2e1aad000ca9f3b80f5d7845495274722728050b"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.GapSumChunk13",
+      "output_sha256": "fa2b2f6dc61a7dd6f473c3530599b13a7b9af38e9fdc5adf457b9d7c46b64fef",
+      "peak_private_bytes": 5793120256,
+      "resource_limit_exceeded": false,
+      "seconds": 32.023,
+      "source_sha256": "4c7e1c0d30f17c65ee0bc53bd4d3cbebf301acff71bd35b3596e3cc95171952e"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.GapSumChunk14",
+      "output_sha256": "77476f8a16991297a29ec53bfee64588d9a29ce8e8fd8bae24fe981089df621a",
+      "peak_private_bytes": 5803986944,
+      "resource_limit_exceeded": false,
+      "seconds": 34.527,
+      "source_sha256": "f4cd443f3017dd09a9a4d9ab799943944aaa5ada60a4973b7b053da58999f26b"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.GapSumChunk15",
+      "output_sha256": "776a0a3bbcec14cd9a7fdc0207ec527051ca7da5851f8b9ce95647a53ac84b55",
+      "peak_private_bytes": 5947650048,
+      "resource_limit_exceeded": false,
+      "seconds": 35.524,
+      "source_sha256": "7094cb9634a92d60696afbda2b4c9f2cb8d62c1449fb7247975ec7211d129f96"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.AbelRadialBound",
+      "output_sha256": "5cbb08fa794a55669c2607129b86f63d15edaec9dede780507ceffe93a3e371b",
+      "peak_private_bytes": 4605685760,
+      "resource_limit_exceeded": false,
+      "seconds": 20.517,
+      "source_sha256": "6e42caf9df102b1c072e7e59074fcda708c54d0019f5646b25c34456e4a33857"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CertifiedResonantGap",
+      "output_sha256": "23a9f8a510965ddf58f1811cfc5bbff4558b39fe4bb887e9eb499dcd468ac558",
+      "peak_private_bytes": 4462870528,
+      "resource_limit_exceeded": false,
+      "seconds": 19.522,
+      "source_sha256": "faf6db2d89fb0f349e64ce29556e3c9933c2e8095169a24b849c9dd0fb0638c5"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.MixedBlockLocalization",
+      "output_sha256": "c4613c58c4b12c663cecca288cb1b795105b23807d273d047156870da04210d6",
+      "peak_private_bytes": 4590538752,
+      "resource_limit_exceeded": false,
+      "seconds": 20.519,
+      "source_sha256": "556bd9aeb663b1c014ca0ddbd6c6aeb1f61724ccb7bc1244a22d372e334de701"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.OuterResonantGap",
+      "output_sha256": "c63c2e233e445efad7691f5a6bcd8530a14ae10ce83e082b8e4be93256a085b5",
+      "peak_private_bytes": 4666810368,
+      "resource_limit_exceeded": false,
+      "seconds": 20.517,
+      "source_sha256": "cdd57648cc363d609124fce04ff1bc0e5483c8c78880c24f3b7010508eb38cfd"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.MixedIntervalLocalization",
+      "output_sha256": "f28b8e7e704b94bf356ae95e6fd15b0dc074896ad8444d6f7bd127422ecaf2a0",
+      "peak_private_bytes": 4599459840,
+      "resource_limit_exceeded": false,
+      "seconds": 20.517,
+      "source_sha256": "d51d84ac021e55c509237b46bfa49c6d1f29b4ad5947e601e2917e35d8ee4e01"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.ResonantLimitPolynomial",
+      "output_sha256": "cad06379207e2849351c11bf0bae5caead205d82685ed65b996277c90782fd32",
+      "peak_private_bytes": 4715085824,
+      "resource_limit_exceeded": false,
+      "seconds": 20.518,
+      "source_sha256": "4962d1cb3bc505d59431a67907215ba7e359a52eb8685cf093cfe63082568abf"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.OuterCuspBounds",
+      "output_sha256": "68a2d7e407cdaf6d47795f460daf11bf8225c2b4b199102f4a6989d5f58b5dc9",
+      "peak_private_bytes": 4660461568,
+      "resource_limit_exceeded": false,
+      "seconds": 19.023,
+      "source_sha256": "0bcc3dccb5ab0b0838627182bd4586ec98370e94fa84143f163168bc937364af"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.NonresonantGeometricBound",
+      "output_sha256": "e6ecc355606043d4e094e47b502bb0b7e1035c1e8d611362d35a66195ce7b2d9",
+      "peak_private_bytes": 4784865280,
+      "resource_limit_exceeded": false,
+      "seconds": 21.517,
+      "source_sha256": "e9e67494d544f2c0baf4c893ec07f3cf9e869103bce620f14749d3484865170d"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.PositiveRadialCusp",
+      "output_sha256": "4a5e29c0ce5a04d4593cce92157d0bcfa9289b46ad6e152e1123912d53fff967",
+      "peak_private_bytes": 4725932032,
+      "resource_limit_exceeded": false,
+      "seconds": 21.026,
+      "source_sha256": "be1deda965fc7bf1fe91763f09cb4b886ec93b8e76d8d875c9004fc8c6287161"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.DivisibleNonresonantBound",
+      "output_sha256": "0dbf353355a31c197b4c0d1064bbc1e37558f67fd26d8ee035c55d47f6239539",
+      "peak_private_bytes": 4715700224,
+      "resource_limit_exceeded": false,
+      "seconds": 21.519,
+      "source_sha256": "af091e8c79e52ee286f2fee2208b3ca713fc5ad9e7446bd0f784afa3695be6ca"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EntropyUpper",
+      "output_sha256": "6c99dec90a814f77b1ecdceaea2a05f1690ee0393b6f0e51a6bd6147ebec712a",
+      "peak_private_bytes": 4713926656,
+      "resource_limit_exceeded": false,
+      "seconds": 20.519,
+      "source_sha256": "fc76b29446d1838e2095f3ba34c047b79916592cee9241179c5871a21dabb1b0"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CoprimeNonresonantBound",
+      "output_sha256": "0afeed5f7fe407ce7ac19c84755e0e7b42df9afa8a509073a89bde115dd7133a",
+      "peak_private_bytes": 4703662080,
+      "resource_limit_exceeded": false,
+      "seconds": 19.518,
+      "source_sha256": "c5a2dd3ac7b01869f48078fafca2fca5b0bbd23f84c77f9cf8214fc4173ef0c9"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.PositiveCuspCertificate",
+      "output_sha256": "0f51b3169323796526bc209cfb3fd0128473deb812f32ff7679b113a87d4119c",
+      "peak_private_bytes": 4784304128,
+      "resource_limit_exceeded": false,
+      "seconds": 21.017,
+      "source_sha256": "a80fbd65ecc6b7fd804aa6830824ee79db48f1d980a698c1a6dfe60b786f0b82"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.WeightedResidueBound",
+      "output_sha256": "6e0aaab3c499ff75072165bd8e97d214f227479139787862aa8e45968e01bba4",
+      "peak_private_bytes": 4714807296,
+      "resource_limit_exceeded": false,
+      "seconds": 21.017,
+      "source_sha256": "c84ca01e30fe11dd9102133bf094ae2c613346998f064221fa7a75b33775199a"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.DenominatorOnePositiveCertificate",
+      "output_sha256": "11b0269c563834ccda46aa4a8759ca22e27b5df06bb599c554f6904be512f34a",
+      "peak_private_bytes": 4759552000,
+      "resource_limit_exceeded": false,
+      "seconds": 22.518,
+      "source_sha256": "b47cac3c252aba026036d22a5fefef5ca3c8a4da3c2f3d6cc417e68a20c5d8e0"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.ResidueGeometricBound",
+      "output_sha256": "9035dd2204bedad41d68aafc9a44a8ad3a03fc88e6629433b86f2b683b87ea7e",
+      "peak_private_bytes": 4715237376,
+      "resource_limit_exceeded": false,
+      "seconds": 22.018,
+      "source_sha256": "928dfef9dbe701db6b170c47db65f89514edf5a41b778f4c040eca188f1058eb"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.WeightedDilogCertificate",
+      "output_sha256": "8bbfd4a64b180844fac154a04f630ff5903419d69cc572f5df770b2960d14329",
+      "peak_private_bytes": 4703395840,
+      "resource_limit_exceeded": false,
+      "seconds": 19.517,
+      "source_sha256": "1305dd815d8fa88fc6cd17bef5a3bd7a847aec7b85f93ef5938e44947016a5ee"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.ReducedFiveFrequency",
+      "output_sha256": "f2190567f24c3c02416c46c011f7cb4de8ed0d1adfa0b3929b6e4b4c4416717a",
+      "peak_private_bytes": 4693610496,
+      "resource_limit_exceeded": false,
+      "seconds": 19.015,
+      "source_sha256": "07c102f97c93fd92bdfc07cacb029377ed053b50e7c2ba9574809f782b833cb5"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.SmallRadialBaseline",
+      "output_sha256": "1d6c900a581099011fbeddd15bc91d76da331e4249a39f4708f8edf17fa27ec7",
+      "peak_private_bytes": 4711014400,
+      "resource_limit_exceeded": false,
+      "seconds": 19.518,
+      "source_sha256": "53aa7253115b5fd6f44b63b292d156cfd0b094f365e4ecb178f02672207505b2"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.LargeDivisibleNonresonant",
+      "output_sha256": "498b2169de2f0c86aafee1a7f7712e2ad38fb38073f6fe911fef8fbf1ed06b75",
+      "peak_private_bytes": 4710408192,
+      "resource_limit_exceeded": false,
+      "seconds": 21.017,
+      "source_sha256": "98dc01a670d69cdd35217d0e83a001631e3fee91c16c6138c3745ffd033b51c7"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.SmallAnglePole",
+      "output_sha256": "3bc430897c218566fa1a1e35b445ce00c02fcd6c75b9baae2de1fc21bc7327f7",
+      "peak_private_bytes": 4745764864,
+      "resource_limit_exceeded": false,
+      "seconds": 23.018,
+      "source_sha256": "f52fa892ea5b3f142e4bb521aa6d9747c69d358cf6bfa9b9fcc562c0443b841e"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.DivisibleResonantGap",
+      "output_sha256": "a7e731d700f255c9e8b07413417e2cc57fdbbd5b52e2989a0c8c2eae65d1d7ee",
+      "peak_private_bytes": 4732649472,
+      "resource_limit_exceeded": false,
+      "seconds": 21.519,
+      "source_sha256": "e1b830411b2f4ca3e011a29b780a2659c4e34ec8dca788f53a1d4e75a7e67d5a"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.SmallAngleIntegral",
+      "output_sha256": "a84f86c74733f0d57aadf757dc16db7e20b956785b4cf315b3aa7af3eaa5d5b3",
+      "peak_private_bytes": 4739670016,
+      "resource_limit_exceeded": false,
+      "seconds": 21.52,
+      "source_sha256": "b91a03d5dd2fb4765b0732b05f322d46abf7891ac774262cdc3fd27a989b0394"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.DenominatorFiveCertificate",
+      "output_sha256": "7983cfa2e917da7b771db5f567242459b74fb43e7b057cc8350e93d9cd35fafa",
+      "peak_private_bytes": 4752080896,
+      "resource_limit_exceeded": false,
+      "seconds": 22.018,
+      "source_sha256": "fec1e9320b2ad03baaddc5e152f8f6f64761de45fb96f13031ce81175a3d52ea"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.LargeAnglePole",
+      "output_sha256": "269e1070c5fb891afa9f503f1abd52ee70ecccc4f92d68ea8329b9c83fba94de",
+      "peak_private_bytes": 4714119168,
+      "resource_limit_exceeded": false,
+      "seconds": 21.019,
+      "source_sha256": "00b689be04340b96cad3e7a8cb0ee6788146bdbb0bbeb8f20fa1747430a716cc"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.SmallDivisibleCertificate",
+      "output_sha256": "cfd937de3681241c04dd765acaa96486b4a4417e24f393e238c3e5e1a1663e6b",
+      "peak_private_bytes": 4750299136,
+      "resource_limit_exceeded": false,
+      "seconds": 22.019,
+      "source_sha256": "a552332b7f716efdf44a67cc4e56f3e100563de0c7684952244fd00d525cc51c"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.ThreeFrequencyCusp",
+      "output_sha256": "a1209d3bc671268c8421f025a1333f726c4aeb047f9a05b5e6afbe1c0eca6681",
+      "peak_private_bytes": 4738699264,
+      "resource_limit_exceeded": false,
+      "seconds": 21.518,
+      "source_sha256": "69c61d757a6c0924c19dd7eed37e4065ed6ea2091ea4781ec9ff8a2cb2813f62"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.ElementaryPhaseConstants",
+      "output_sha256": "952392257c71dae01089fc9d78a672dea2589bbbc3fcf4d14e6caefa56dbb709",
+      "peak_private_bytes": 4704362496,
+      "resource_limit_exceeded": false,
+      "seconds": 21.52,
+      "source_sha256": "8ec65bbba11a0ada44f9ed956eae58ec0a20d5a9d5ce3c53ea6d4200f4e1b3dc"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CuspRectangleBridge",
+      "output_sha256": "48013e4cd835a7f60002e26bf6ca9a47ac1a127359d0c38603d10440e6370a0a",
+      "peak_private_bytes": 4724203520,
+      "resource_limit_exceeded": false,
+      "seconds": 20.52,
+      "source_sha256": "ee234b59b64fc423f71a1c102d7038fe369069682895eb8a6817970f94b0b02a"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.AngleDeficit",
+      "output_sha256": "8596394c622c7dca15bf57bdb8993b86fe86fca04190626bbd0fee61e5e69b60",
+      "peak_private_bytes": 4665602048,
+      "resource_limit_exceeded": false,
+      "seconds": 20.016,
+      "source_sha256": "2e10711ad5d354b4ad41aeb48cd5d822da4139629c9898e3f4ec758c4596b150"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.UniformPoleBound",
+      "output_sha256": "a88d6a8a15656efa5279ba6f9ea72305428ff97e2b2a557165789cf8b95db4c2",
+      "peak_private_bytes": 4755415040,
+      "resource_limit_exceeded": false,
+      "seconds": 21.018,
+      "source_sha256": "d638ec24502e434aad7f9b40cce661b5ec982c940fdf56e7c36b7b024d81968a"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CuspCellCertificate",
+      "output_sha256": "bd704496f69b4e978269ced907d2bba96e2cdaf4194755ceb9d09e915463fc99",
+      "peak_private_bytes": 4727861248,
+      "resource_limit_exceeded": false,
+      "seconds": 21.018,
+      "source_sha256": "ca56f6446a87bdfe922138f688b7790f68e2d80f97ee8fc18fe3eb1155688cf5"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CoprimeResonantGap",
+      "output_sha256": "c4cb7acfa2a801662ef03f37bdca313bbbb7103f1aea9514241a2c0cbac925ec",
+      "peak_private_bytes": 4745834496,
+      "resource_limit_exceeded": false,
+      "seconds": 23.519,
+      "source_sha256": "ff79a88184b3b1d52fe51acf6b507d50a83e128626219b4c52927732ba08e67b"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CuspSineData",
+      "output_sha256": "61c11af6965e888dbf43b4ae88c24bfe16132f446af1adac27c6072dfc21494d",
+      "peak_private_bytes": 4732235776,
+      "resource_limit_exceeded": false,
+      "seconds": 21.019,
+      "source_sha256": "be1e093dc17a55a6f0373c1692137355462a7bf53c22447b4cffbf7cec42310a"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.ElementaryPhaseLower",
+      "output_sha256": "a7aebfdc379ddd6a53056bf9e9926ff3e47236c495c80efcaf04b243f71acb56",
+      "peak_private_bytes": 4749119488,
+      "resource_limit_exceeded": false,
+      "seconds": 24.02,
+      "source_sha256": "80ee5d1bd18bfaa13f9530aeb6e0daa1d4dce7e96f613a65b08ed1c09aa3313f"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CuspSineChunk0",
+      "output_sha256": "45f1370e19d91b5f66cdb5f030dcd59ed23b4aa415cc45754fc05a5aa5355037",
+      "peak_private_bytes": 4868182016,
+      "resource_limit_exceeded": false,
+      "seconds": 19.518,
+      "source_sha256": "8c0d05bf36402df236dd83d9026ac071806ec5aa0a47c91aa8c322c9a6397205"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CuspSineChunk1",
+      "output_sha256": "ff60b700cdbef10c569257527c6a91ef09ec6cf757c4204547a3bef0589b56da",
+      "peak_private_bytes": 4871987200,
+      "resource_limit_exceeded": false,
+      "seconds": 20.017,
+      "source_sha256": "9c297d74502b42d9a560a27f57699e59173483de5ff344e1c5a4baf69646d8f9"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CuspSineChunk2",
+      "output_sha256": "11bc4614a0003039ebf47ee3eca47eefb464d879bb24001173c235b0429ff021",
+      "peak_private_bytes": 4905226240,
+      "resource_limit_exceeded": false,
+      "seconds": 19.52,
+      "source_sha256": "c8d188388950105ce7f52c893020ce6d199fa5b8fce016aeb90fed677684afef"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CuspSineChunk3",
+      "output_sha256": "453c4b4f57b6e6f98c3c096e0a0afd5d616011d7d29eea6e70f1d05489ee43b6",
+      "peak_private_bytes": 4903936000,
+      "resource_limit_exceeded": false,
+      "seconds": 19.52,
+      "source_sha256": "10ed98caa2f0c37ae369779b0114eb74608c6fbda58e0786d9eec72110c2b008"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CuspSineChunk4",
+      "output_sha256": "ae7964f084649ba612eb4721e2ed7bb6302721a8ad6f626f4c6aeb22b9eda2a2",
+      "peak_private_bytes": 4888477696,
+      "resource_limit_exceeded": false,
+      "seconds": 20.016,
+      "source_sha256": "80f9c20283e4d9fe10628542de8a6fb7aece219374391e2d5a5f43d4caef108d"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CuspSineChunk5",
+      "output_sha256": "be674585ccf3f2cebbf030fffc859878bd3f3646cfe5323f7c0bbbc0a9933d2f",
+      "peak_private_bytes": 4904284160,
+      "resource_limit_exceeded": false,
+      "seconds": 19.518,
+      "source_sha256": "f0ac4272e45f94a7f2dd2376ab88f2fb1ef398a85ca9d51fba14e0bd18375916"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CuspSineChunk6",
+      "output_sha256": "d822adc3267c35d814afd8e8df3a97ec83cc824310d67ad596182a00b48f732a",
+      "peak_private_bytes": 4901314560,
+      "resource_limit_exceeded": false,
+      "seconds": 19.529,
+      "source_sha256": "def0e78ad6cc55900d32ec6bb5972d3d3d15f2dcafda0b0c25e4426fb1f79a8e"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CuspSineChunk7",
+      "output_sha256": "6aa569f96cc03539e9e179cd6f8cf419c20c54fbd889ad92ac777eb02e2b245a",
+      "peak_private_bytes": 4934795264,
+      "resource_limit_exceeded": false,
+      "seconds": 20.019,
+      "source_sha256": "4e8cab64416e431a09ae240cafa7ca81b47811da4f3165ef7193333404d09ffa"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CertifiedDenominatorOne",
+      "output_sha256": "4301b2d3f3a1cb1ac82157f03d0beead1895144d9307f3f75c32b7470164cdf5",
+      "peak_private_bytes": 4718137344,
+      "resource_limit_exceeded": false,
+      "seconds": 19.516,
+      "source_sha256": "6b6abf50d0b9d379ca6f5f93be917386a5df96a7faab72c01fe6af6194d1caa0"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.SmallCoprimeCertificate",
+      "output_sha256": "ece9703560c7c4fc0ee536d3d13917376e9e9fdebe93b97860741ad20ec03593",
+      "peak_private_bytes": 4742148096,
+      "resource_limit_exceeded": false,
+      "seconds": 20.52,
+      "source_sha256": "08e005f4a6d72201271a02e7abf82c419e5faa6371c298116cb620d8da5019f5"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.LargeCoprimeCertificate",
+      "output_sha256": "71e04cc5b0ac75769a19512b28d5153193e168423d703d94e11668412b9a5277",
+      "peak_private_bytes": 4792725504,
+      "resource_limit_exceeded": false,
+      "seconds": 22.52,
+      "source_sha256": "65d8d9a4caaa40f7a77fa95fa958642f96bc1efa0396b76752748f165961475f"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.LargeDivisibleCertificate",
+      "output_sha256": "932af799bcb29fd197a810b097b43a6a430573df179ce13a73845041716c9952",
+      "peak_private_bytes": 4814745600,
+      "resource_limit_exceeded": false,
+      "seconds": 21.52,
+      "source_sha256": "1ad872390df8ff77611a9b286be1d65dc2980dcef504af426db6e46db4b4e132"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CertifiedOuterLocalization",
+      "output_sha256": "d62e04452d9f55c0b639c2120b5cad07d7741d2e811a15ec1120b081b1723663",
+      "peak_private_bytes": 4725293056,
+      "resource_limit_exceeded": false,
+      "seconds": 19.017,
+      "source_sha256": "f56701cded1a2cdbf6c59e633a8ef25e83f474c99e8bfa480bed50a02a95d71e"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.SharpDenominatorFive",
+      "output_sha256": "4dfdfaaebdee18c25fac576bacc20d475665366de8137e395c032957998fecb3",
+      "peak_private_bytes": 4781940736,
+      "resource_limit_exceeded": false,
+      "seconds": 24.031,
+      "source_sha256": "8682414e1165db6f9ddb124c52e5a4f8c163dc8a1901d2f1e9e860193f0d102d"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.SharpSharedBudgets",
+      "output_sha256": "1f52c846556da019ed3dd596b1d70ee9877c2f122512a8fab8e8f553b777984b",
+      "peak_private_bytes": 4841357312,
+      "resource_limit_exceeded": false,
+      "seconds": 25.532,
+      "source_sha256": "5ead98de94cf4a70cb92159b3fe4b38c3554dfd6f4d3b3041c45dec1acef1ef6"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.SharpPolynomialTransfer",
+      "output_sha256": "2c29a3fc7984975401b576b633687d0819b349acf90fc8c7275eede9f1ee7f0c",
+      "peak_private_bytes": 4829073408,
+      "resource_limit_exceeded": false,
+      "seconds": 21.517,
+      "source_sha256": "b81ddcae5f5693a607dc83fd21dc69157d165623842cbe2902e83521cc1adde9"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.SharpOuterLocalization",
+      "output_sha256": "1ec367efc721f7b73663c8e0718899e4f4eacc00dcce79669f13bd72274fdcf6",
+      "peak_private_bytes": 4719353856,
+      "resource_limit_exceeded": false,
+      "seconds": 18.516,
+      "source_sha256": "41a37a4de75d7393078fb31f127ed02c008644a0c45a4b1d8d3b5b323a7bba01"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.SharpOuterTail",
+      "output_sha256": "c9fb78f3a39afb4d515dbfdf36bc73d0d8f3867c881526da6a12dd6361ef6154",
+      "peak_private_bytes": 4738744320,
+      "resource_limit_exceeded": false,
+      "seconds": 21.022,
+      "source_sha256": "60f3d8ddc459ea7742c88c9f246e6872b597cb3e943c79fd67d2ab39118c0e13"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CertifiedMiddleTail",
+      "output_sha256": "2ded0718a217f243ea4f469c109bc2d271d197dc4f93c46c3ca25b09efcf3840",
+      "peak_private_bytes": 4750819328,
+      "resource_limit_exceeded": false,
+      "seconds": 24.524,
+      "source_sha256": "bfd18bdf86ae8444d9e5b575bf8b0efb307ac06ae5cfa00aba9a09b97472a572"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CertifiedBulkRemainder",
+      "output_sha256": "9e1b8c289d1bcb729a742c71022b142a3c720f6e11b18384a04a06091df67f8a",
+      "peak_private_bytes": 4779282432,
+      "resource_limit_exceeded": false,
+      "seconds": 20.518,
+      "source_sha256": "47d6225a48a62d153dc25d7ad1801f70a741806ee3bdc456cba0f8caf8e9caab"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.BulkSignCriterion",
+      "output_sha256": "6722acbab4e57b2ba7f65a6c45d56e9e3e26dee885681bcc6b63e8b7aa3d6a62",
+      "peak_private_bytes": 4739760128,
+      "resource_limit_exceeded": false,
+      "seconds": 20.517,
+      "source_sha256": "727a76c8ab8dd1cba5634f84a65ccef789896798f8f84ea97c30b41d5d2d83b7"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.SignedMainBudget",
+      "output_sha256": "598259676a28872b36c0b2b43d99f9fd403e230b22c741f32ac0aa3e9c95725e",
+      "peak_private_bytes": 4748263424,
+      "resource_limit_exceeded": false,
+      "seconds": 20.522,
+      "source_sha256": "cc96f116b63836d1352180f7df45c58cfb523c59cbe17cc28fa0c1511dc695b4"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.RationalMainBudget",
+      "output_sha256": "a8810daab115a1cf3f7ee63263ba47aed8898d377214be8a62969822ebeb01f3",
+      "peak_private_bytes": 4762177536,
+      "resource_limit_exceeded": false,
+      "seconds": 20.52,
+      "source_sha256": "2df583b01f2b9988b0b70e830e1cc560c5db1a94cecf7db98b943b0cccef9e03"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CertifiedPhaseLower",
+      "output_sha256": "725e3a89c3f3c833ea2400275858a7d7086ed105e34b7abab0a802d09ce3e074",
+      "peak_private_bytes": 5285851136,
+      "resource_limit_exceeded": false,
+      "seconds": 22.516,
+      "source_sha256": "8eaaaed5768c6df90fec07e909db3674f7216eba22650183c8aae1e39c84ef55"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.BulkRationalCertificate",
+      "output_sha256": "675bbeb574d322a72d1c2b7f17823f20897b0825fb8b8a0cf14be51da519ac4e",
+      "peak_private_bytes": 5487034368,
+      "resource_limit_exceeded": false,
+      "seconds": 27.522,
+      "source_sha256": "0cb7a51aca20214043fa918aaae66b0cf7b29e5e470fd6ae6e2d012b7423d9f7"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.BulkCertificateCast",
+      "output_sha256": "ec100ad2b3ca597bd21ce69c5922ba27ea722962df1e19a2c9f47d1f570c0a6b",
+      "peak_private_bytes": 4767817728,
+      "resource_limit_exceeded": false,
+      "seconds": 23.518,
+      "source_sha256": "f9feba08bb1ab60f515d36fc01467b51b9b96685fc17448fb1685ff601483d7b"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.InverseEulerLoss",
+      "output_sha256": "d7e764da96492f2868e32c066c719afb92a0c864973a395b717b6426a3e0e4b0",
+      "peak_private_bytes": 4848119808,
+      "resource_limit_exceeded": false,
+      "seconds": 26.521,
+      "source_sha256": "fd49ff2f3efc92e228597ef46217c71aebbdaa91384eebd34c913234db30c875"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CertifiedInteriorSign",
+      "output_sha256": "e798353d76ec2adc36209d363ab7224fc7946aacbcd100e7e95c3dbba5cfe873",
+      "peak_private_bytes": 4750790656,
+      "resource_limit_exceeded": false,
+      "seconds": 21.017,
+      "source_sha256": "462e0f3a9c7f91c05fdce56ea624fb8ca836c9da170e8394a88db0a1158df9c6"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.InverseEulerConstants",
+      "output_sha256": "38da8b5aec97bbbe0b44459614fa6acecf957d83d04692c3197a6028a832dd80",
+      "peak_private_bytes": 4245671936,
+      "resource_limit_exceeded": false,
+      "seconds": 21.018,
+      "source_sha256": "2eb3580ed3f455ff57c807eb8c2290c352467bacf6cb4149f2453482a6742b9d"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.PeriodicLossSeries",
+      "output_sha256": "3777d60d2eed73eb8d9785fefa6d24f6d2a1c1f82f0a8831c8069f242675a848",
+      "peak_private_bytes": 4859748352,
+      "resource_limit_exceeded": false,
+      "seconds": 20.517,
+      "source_sha256": "87702882108ac66cca5e51aebb88de780962866f7694c20729853577d3503487"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.InverseEulerRadialBound",
+      "output_sha256": "797cf30f92d09f3f85ccb56e2d3d7f1fdd3378d5466076e94760c725e18827c0",
+      "peak_private_bytes": 4354691072,
+      "resource_limit_exceeded": false,
+      "seconds": 21.519,
+      "source_sha256": "d5b3acbf1974fb7d8170e57e007a39ccf1712ef14ac628cfe85122dc6567fb1a"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.PeriodicProductWeights",
+      "output_sha256": "e4cb207ca987037d2da8cce0b7f196fa6605195c86a14a71913b73d91457b573",
+      "peak_private_bytes": 4905111552,
+      "resource_limit_exceeded": false,
+      "seconds": 22.019,
+      "source_sha256": "aba5b44106a85bbf23bcc5e0eaa81db597d96091dfaa059de73ede52ad88ba28"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EulerGaussianBound",
+      "output_sha256": "2dfbc97efe71e7872a2773154b69f61179b9a20f7946483336cd7d491fb8ffb2",
+      "peak_private_bytes": 4872339456,
+      "resource_limit_exceeded": false,
+      "seconds": 22.017,
+      "source_sha256": "142511a77ff3840c033147dbee734810a262679daded8b31ecdc073a0999b242"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.PeriodicRadialProfile",
+      "output_sha256": "65f40fb63087655631fae558aee3fe5e2e8c5987a7aadab2ebd76cc810b33cc2",
+      "peak_private_bytes": 4894384128,
+      "resource_limit_exceeded": false,
+      "seconds": 21.523,
+      "source_sha256": "40761d4cd8b44bd19d93d0984ece5f2615e1a2a53e69088146232efdf941e6df"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointScalarCorrection",
+      "output_sha256": "fcc449aa334783f5d5ec8cfc4f39ed3ccd96757df4ac9035690b7efc84d41512",
+      "peak_private_bytes": 4915924992,
+      "resource_limit_exceeded": false,
+      "seconds": 22.025,
+      "source_sha256": "96853b8436ad7d742f2d3d185c10c412f5c802d2446e056b9fdb116f97fc52d7"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.InverseEulerGeometry",
+      "output_sha256": "d1a19c9f33d5ed5a892a0ab4d28e50d9b6ad503d21df8e23bab3e30a35c9621f",
+      "peak_private_bytes": 4883447808,
+      "resource_limit_exceeded": false,
+      "seconds": 22.017,
+      "source_sha256": "01fef949eec496c64ef8361027aadcdf6d75e15170a2b6967a89611fd2b8b5a3"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointRadialSign",
+      "output_sha256": "8553257d765363824f1ba1278d30c60765e7a3d2e8c5f8f6fc7717602f6f6e9c",
+      "peak_private_bytes": 4932882432,
+      "resource_limit_exceeded": false,
+      "seconds": 21.52,
+      "source_sha256": "98fba5c65e6d57297a91dc7bdcc331afe11b855a0dc7ee04d542facc0d60af19"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.InverseEulerNearLoss",
+      "output_sha256": "aefdd0ccbfa7ef376467457b345fdd1b39e9e038d18c61737798081d1bdcc3dd",
+      "peak_private_bytes": 4924043264,
+      "resource_limit_exceeded": false,
+      "seconds": 24.522,
+      "source_sha256": "879b1a0aa1bc0ef4fe0b9328bfd1b5a1bb17566f88252d41f536d8bab92f556d"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointSaddleRange",
+      "output_sha256": "18895394156462a412e041310782818d6e169da4ec2c7ec786240f409b075bb3",
+      "peak_private_bytes": 4945678336,
+      "resource_limit_exceeded": false,
+      "seconds": 22.025,
+      "source_sha256": "9f514e4ecef53a209bf5685f1de19647d6fc7f6ea434fdd07223c6669727ee5d"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.InverseEulerAngularDecay",
+      "output_sha256": "010d54be8684e4f3afc0cc2882c4185fe13708b7e6a9828976e4b474224407ee",
+      "peak_private_bytes": 4877012992,
+      "resource_limit_exceeded": false,
+      "seconds": 22.022,
+      "source_sha256": "a4fd80ba8b8604e7b4fc4fcf44c5f49b2a7701c87e1bd2d6b9c1ab658df9996f"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointRangeSign",
+      "output_sha256": "c502603076f043eb109ab2235d9658033b82c5c6c3c9e2044d779dcee0de156e",
+      "peak_private_bytes": 4912881664,
+      "resource_limit_exceeded": false,
+      "seconds": 21.518,
+      "source_sha256": "28685934e173fd31a84ff3bce52c65899d0a1b0e74b02e5005fe6456ba1a6024"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.ExplicitLargeNZeroSet",
+      "output_sha256": "709ed7496a1ca7918e34e1ed47a2bdf0fab1cc5bf65b8bafb7d1e8f7e1a03cd2",
+      "peak_private_bytes": 2229272576,
+      "resource_limit_exceeded": false,
+      "seconds": 12.515,
+      "source_sha256": "b1935b078b2bddedb4418f3a790a667a697c7633fb073cc047d146be4a5e2022"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.EndpointGMinor",
+      "output_sha256": "780ae162070a2ab726c29ee98d50c0bb2d496124d29202ac689ae926d50da961",
+      "peak_private_bytes": 4942229504,
+      "resource_limit_exceeded": false,
+      "seconds": 22.021,
+      "source_sha256": "d1946f7e1b4d76ca84e4d00fa4bd7153329b55b67c3337ca5b8ef7ea77f817f5"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CertifiedEndpointSign",
+      "output_sha256": "956503ce9a31d9d79c6b8b5fb4e7cdb28b572b8afefa52105946ec8fd65d1805",
+      "peak_private_bytes": 4915335168,
+      "resource_limit_exceeded": false,
+      "seconds": 19.016,
+      "source_sha256": "9ca5c91520c320af6d90f657b4d9d1b72cab436cfab0c1bb9cef1abfede0af6c"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CertifiedLargeN",
+      "output_sha256": "f102a973d0529a61078523497d88b4f9a5b007c4252857eecfd26978a713e90e",
+      "peak_private_bytes": 5006733312,
+      "resource_limit_exceeded": false,
+      "seconds": 21.521,
+      "source_sha256": "38f33089359736a8dd78ef29c624f119324c37f09e9d47babdfe2b5af9fac9cb"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CertifiedLargeNZeroHalf",
+      "output_sha256": "6e704076bc912737cab4f7a734de5e139794d693aa106efb7af3cd1a62e600f7",
+      "peak_private_bytes": 5042212864,
+      "resource_limit_exceeded": false,
+      "seconds": 21.019,
+      "source_sha256": "7c8ff47539aac5a4a78301fc312777ad2e0936ac5299d48f0db593ff4806ae2a"
+    },
+    {
+      "exit_code": 0,
+      "module": "Borwein.CertifiedLargeNZeroSet",
+      "output_sha256": "8d29797ba4cf3bc6e39109e1dce0763bbf4f95f40ed5fdefa4f75c5631c4276a",
+      "peak_private_bytes": 4999069696,
+      "resource_limit_exceeded": false,
+      "seconds": 19.016,
+      "source_sha256": "4595b6cf006261e59cdd62c9f0cdd350aa57ff3f5d768ad7d717b77e9dfaeb56"
+    }
+  ],
+  "started_unix": 1789314490.8302739,
+  "status": "passed",
+  "scope": "Every local source compiled from an empty output tree; pinned Lean and third-party library binaries reused.",
+  "command": "python tools/rebuild_parallel.py . --jobs 2",
+  "source_manifest_sha256": "96929afe70103ee7f847715f3c4a7638f72c3576d45639db334448ba4ef71db2",
+  "dependency_manifest_sha256": "ced1b8f1385a719ae11f716d298f98e46cd70a0d5cbf81c20cc8238109e23244",
+  "axiom_log": "axioms.log",
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "axiom_log_sha256": "a5ff746323296f16278dfe7941fad05ff1e42c0793f2be117bca5918c187ba87"
+}

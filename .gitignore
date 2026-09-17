@@ -1,0 +1,8 @@
+# Build and rerun outputs
+.lake/
+.clean-build/
+.release-build/
+.pdf-build/
+.local-deps/
+__pycache__/
+/rerun/

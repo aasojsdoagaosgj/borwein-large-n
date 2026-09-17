@@ -1,0 +1,16 @@
+{
+  "edition": "large-n publication with verified dependency repair",
+  "threshold": 31147,
+  "mathematical_core": "Integrated analytic manuscript, sections 1-10; all display mathematics preserved.",
+  "preserved_core_display_count": 107,
+  "lean_sources": "Freshly rebuilt closure, with root-phase estimates restored in a separate module.",
+  "external_data_files": 0,
+  "excluded": "Small-n finite coefficient runs, binary checkpoints, experiments, historical status material, compiled artifacts and personal metadata.",
+  "clean_lean_rebuild_during_packaging": true,
+  "ai_use": "OpenAI Codex, additional parallel AI agents, and suggestions/audits from other AI systems; no independent human peer review claimed.",
+  "editorial_revision": "Searchable title, source-verified related work and three references, and a reading PDF generated from paper.md.",
+  "pdf_pages": 7,
+  "all_lean_sources_unchanged_from_previous_edition": false,
+  "clean_build_record": "lean/evidence/clean-build.json",
+  "repair_note": "lean/evidence/repair.md"
+}

@@ -1,0 +1,17 @@
+name = "borwein"
+version = "0.1.0"
+defaultTargets = ["Borwein"]
+
+[leanOptions]
+relaxedAutoImplicit = false
+linter.style.header = false
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.32.2"
+
+[[lean_lib]]
+name = "Borwein"
+
+roots = ["Borwein.CertifiedLargeN", "Borwein.CertifiedLargeNZeroSet"]
